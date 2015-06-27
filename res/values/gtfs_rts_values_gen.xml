@@ -6,7 +6,7 @@
     <string name="gtfs_rts_timezone">America/Regina</string>
     <string name="gtfs_rts_area_min_lat">52.078452</string>
     <string name="gtfs_rts_area_max_lat">52.202142</string>
-    <string name="gtfs_rts_area_min_lng">-106.760535</string>
+    <string name="gtfs_rts_area_min_lng">-106.76074</string>
     <string name="gtfs_rts_area_max_lng">-106.549755</string>
     <string name="gtfs_rts_color">027AA7</string>
 </resources>
