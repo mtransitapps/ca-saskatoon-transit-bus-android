@@ -2,14 +2,14 @@
 100,0,'Wildwood',1
 201,0,'City Ctr',2
 200,0,'Meadowgreen',2
-301,0,'College Park',3
-300,0,'Hudson Bay Park',3
+301,0,'College Pk',3
+300,0,'Hudson Bay Pk',3
 400,0,'Mayfair',4
 401,0,'Willowgrove Sq',4
 501,0,'Briarwood',5
 500,0,'McCormack',5
 600,0,'Broadway',6
-601,0,'Market Mall',6
+601,0,'Mkt Mall',6
 701,0,'City Ctr',7
 700,0,'Dundonald',7
 800,0,'8th St',8
@@ -17,43 +17,43 @@
 901,0,'City Ctr',9
 900,0,'Riversdale',9
 1001,0,'City Ctr',10
-1000,0,'Pleasant Hill',10
+1000,0,'Pleasant Hl',10
 1201,0,'Airport',12
-1200,0,'River Heights',12
+1200,0,'River Hts',12
 1301,0,'Broadway',13
-1300,0,'Lawson Heights',13
+1300,0,'Lawson Hts',13
 1401,0,'City Ctr',14
-1400,0,'North Industrial',14
-1701,0,'Market Mall',17
+1400,0,'North Ind',14
+1701,0,'Mkt Mall',17
 1700,0,'Stonebridge',17
 2001,0,'City Ctr',20
-2000,0,'South Industrial',20
+2000,0,'South Ind',20
 2201,0,'City Ctr',22
 2200,0,'Montgomery',22
 2301,0,'Blairmore',23
-2300,0,'Hampton Village',23
+2300,0,'Hampton Vlg',23
 2500,0,'Credit Union Ctr',25
-2501,0,'North Industrial',25
+2501,0,'North Ind',25
 2601,0,'Stonebridge',26
 2600,0,'University',26
-2800,0,'University / Forest Grove',28
+2800,0,'University / Forest Grv',28
 2801,0,'Willowgrove',28
 2901,0,'Ctr Mall',29
 2900,0,'Rosewood',29
 5000,0,'Lakeview',50
-5001,0,'Pacific Heights',50
+5001,0,'Pacific Hts',50
 6001,0,'Confederation',60
 6000,0,'Lakeridge',60
 7001,0,'City Ctr / University',70
 7000,0,'Silverspring',70
 7501,0,'City Ctr',75
-7500,0,'Lawson Heights',75
+7500,0,'Lawson Hts',75
 8001,0,'City Ctr',80
 8000,0,'Kenderdine',80
 8501,0,'City Ctr',85
 8500,0,'Silverwood',85
-10001,0,'Downtown Direct',100
-10000,0,'Downtown Direct 1 / Downtown Direct 2',100
+10000,0,'Downtown',100
+10001,0,'Southeast',100
 10400,0,'Willowgrove Downtown Express',104
 18000,0,'Kenderdine Downtown Express',180
 20001,0,'City Ctr',200
