@@ -28,14 +28,15 @@
 1700,0,'Stonebridge',17
 2001,0,'City Ctr',20
 2000,0,'South Ind',20
+2101,0,'University',21
 2201,0,'City Ctr',22
 2200,0,'Montgomery',22
 2301,0,'Blairmore',23
 2300,0,'Hampton Vlg',23
 2500,0,'Credit Union Ctr',25
 2501,0,'North Ind',25
-2601,0,'Stonebridge',26
-2600,0,'University',26
+2600,0,'Mkt Mall',26
+2601,0,'University',26
 2800,0,'University / Forest Grv',28
 2801,0,'Willowgrove',28
 2901,0,'Ctr Mall',29
@@ -54,7 +55,10 @@
 8500,0,'Silverwood',85
 10000,0,'Downtown',100
 10001,0,'Southeast',100
+10101,0,'Lakeridge',101
+10100,0,'University',101
+10201,0,'Lakewood SC',102
+10200,0,'University',102
+10300,0,'University',103
 10400,0,'Willowgrove Downtown Express',104
 18000,0,'Kenderdine Downtown Express',180
-20001,0,'City Ctr',200
-20000,0,'University',200
