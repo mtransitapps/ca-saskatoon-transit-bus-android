@@ -33,11 +33,11 @@
 2200,0,'Montgomery',22
 2301,0,'Blairmore',23
 2300,0,'Hampton Vlg',23
-2500,0,'Credit Union Ctr',25
 2501,0,'North Ind',25
+2500,0,'Sask Tel Ctr',25
 2600,0,'Mkt Mall',26
 2601,0,'University',26
-2800,0,'University / Forest Grv',28
+2800,0,'University',28
 2801,0,'Willowgrove',28
 2901,0,'Ctr Mall',29
 2900,0,'Rosewood',29
@@ -45,7 +45,7 @@
 5001,0,'Pacific Hts',50
 6001,0,'Confederation',60
 6000,0,'Lakeridge',60
-7001,0,'City Ctr / University',70
+7001,0,'City Ctr',70
 7000,0,'Silverspring',70
 7501,0,'City Ctr',75
 7500,0,'Lawson Hts',75
@@ -59,6 +59,8 @@
 10100,0,'University',101
 10201,0,'Lakewood SC',102
 10200,0,'University',102
-10300,0,'University',103
-10400,0,'Willowgrove Downtown Express',104
-18000,0,'Kenderdine Downtown Express',180
+10300,0,'Downtown',103
+10400,0,'Downtown',104
+18000,0,'Downtown',180
+51400,0,'Credit Union Ctr',514
+51401,0,'North Ind',514
