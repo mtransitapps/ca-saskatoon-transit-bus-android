@@ -12,7 +12,7 @@
 601,0,'Mkt Mall',6
 701,0,'City Ctr',7
 700,0,'Dundonald',7
-800,0,'8th St',8
+800,0,'Ctr Mall',8
 801,0,'Downtown',8
 901,0,'City Ctr',9
 900,0,'Riversdale',9
@@ -24,6 +24,8 @@
 1300,0,'Lawson Hts',13
 1401,0,'City Ctr',14
 1400,0,'North Ind',14
+1503,0,'City Ctr',15
+1504,0,'South Garage',15
 1701,0,'Mkt Mall',17
 1700,0,'Stonebridge',17
 1801,0,'College Pk',18
@@ -67,29 +69,22 @@
 8401,0,'Ctr Mall',84
 8601,0,'Ctr Mall',86
 8600,0,'Rosewood',86
+10101,0,'Lakeridge',101
+10100,0,'University',101
 10201,0,'Lakewood SC',102
 10200,0,'University',102
 10400,0,'Downtown',104
 11700,0,'Stonebridge University Express',117
 18000,0,'Downtown',180
-30501,0,'City Ctr',305
 31100,0,'AM',311
 31101,0,'PM',311
-31201,0,'Downtown',312
-31200,0,'Mkt Mall',312
 31400,0,'AM',314
 31401,0,'PM',314
-31501,0,'Special',315
-31601,0,'City Ctr',316
-31600,0,'Special',316
 32501,0,'City Ctr',325
 33100,0,'AM',331
 33101,0,'PM',331
 33200,0,'AM',332
 33201,0,'PM',332
-33301,0,'City Ctr',333
-33300,0,'Credit Union Ctr',333
-33401,0,'Special',334
 33500,0,'AM',335
 33501,0,'PM',335
 33600,0,'Special',336
@@ -101,14 +96,16 @@
 34100,0,'Special',341
 34200,0,'AM',342
 34201,0,'PM',342
+34603,0,'Ave W / 33rd st',346
+34604,0,'Shaw Ctr / Bowlt',346
 34800,0,'AM',348
 34801,0,'PM',348
 34900,0,'Special',349
 35200,0,'AM',352
 35201,0,'PM',352
-35401,0,'Special',354
-35601,0,'Special',356
 35800,0,'AM',358
 35801,0,'PM',358
-51400,0,'Credit Union Ctr',514
 51401,0,'North Ind',514
+51400,0,'Sask Tel Ctr',514
+52304,0,'Confederation',523
+52303,0,'Hampton Vlg',523
