@@ -1,5 +1,5 @@
+100,0,'City Ctr',1
 101,0,'Exhibition',1
-100,0,'Wildwood',1
 201,0,'City Ctr',2
 200,0,'Meadowgreen',2
 301,0,'City Ctr',3
@@ -74,8 +74,8 @@
 10201,0,'Lakewood SC',102
 10200,0,'University',102
 10400,0,'Downtown',104
-11700,0,'Stonebridge University Express',117
 18000,0,'Downtown',180
+30501,0,'City Ctr',305
 31100,0,'AM',311
 31101,0,'PM',311
 31400,0,'AM',314
@@ -111,5 +111,3 @@
 35801,0,'PM',358
 51401,0,'North Ind',514
 51400,0,'Sask Tel Ctr',514
-52304,0,'Confederation',523
-52303,0,'Hampton Vlg',523
