@@ -6,7 +6,7 @@
 300,0,'Hudson Bay Pk',3
 400,0,'Mayfair',4
 401,0,'Willowgrove Sq',4
-501,0,'Briarwood',5
+501,0,'City Ctr',5
 500,0,'McCormack',5
 600,0,'Broadway',6
 601,0,'Mkt Mall',6
@@ -25,9 +25,8 @@
 1401,0,'City Ctr',14
 1400,0,'North Ind',14
 1503,0,'City Ctr',15
-1504,0,'Valley Road',15
-1701,0,'Mkt Mall',17
 1700,0,'Stonebridge',17
+1701,0,'University',17
 1801,0,'College Pk',18
 1800,0,'University',18
 1900,0,'City Ctr',19
@@ -35,13 +34,13 @@
 2001,0,'City Ctr',20
 2000,0,'South Ind',20
 2101,0,'University',21
-2201,0,'City Ctr',22
 2200,0,'Montgomery',22
+2201,0,'University',22
 2301,0,'Blairmore',23
 2300,0,'Hampton Vlg',23
 2501,0,'North Ind',25
 2500,0,'Sask Tel Ctr',25
-2800,0,'University',28
+2800,0,'Silverspring',28
 2801,0,'Willowgrove',28
 3001,0,'City Ctr',30
 3000,0,'Lawson Hts',30
@@ -52,18 +51,18 @@
 4501,0,'City Ctr',45
 4500,0,'Kenderdine',45
 5000,0,'Lakeview',50
-5001,0,'Pacific Hts',50
+5001,0,'University',50
 5500,0,'Lakeridge',55
 5501,0,'University',55
+6000,0,'City Ctr',60
 6001,0,'Confederation',60
-6000,0,'Lakeridge',60
 6500,0,'City Ctr',65
 6501,0,'Kensington',65
 8101,0,'Ctr Mall',81
 8100,0,'University',81
 8201,0,'Ctr Mall',82
 8200,0,'University',82
-8300,0,'City Ctr',83
+8300,0,'Ctr Mall',83
 8301,0,'Stonebridge',83
 8400,0,'Briarwood',84
 8401,0,'Ctr Mall',84
@@ -71,10 +70,10 @@
 8600,0,'Rosewood',86
 10101,0,'Lakeridge',101
 10100,0,'University',101
-10201,0,'Lakewood SC',102
 10200,0,'University',102
-10400,0,'Downtown',104
-18000,0,'Downtown',180
+10201,0,'University Direct 2',102
+10400,0,'Willowgrove Downtown Express',104
+18000,0,'Kenderdine Downtown Express',180
 30501,0,'City Ctr',305
 31100,0,'AM',311
 31101,0,'PM',311
@@ -101,7 +100,7 @@
 34603,0,'Ave W / 33rd st',346
 34604,0,'Shaw Ctr / Bowlt',346
 34800,0,'AM',348
-34801,0,'PM',348
+34801,0,'Special',348
 34900,0,'Special',349
 35200,0,'AM',352
 35201,0,'PM',352
