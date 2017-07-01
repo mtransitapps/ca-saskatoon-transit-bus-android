@@ -24,7 +24,8 @@
 1300,0,'Lawson Hts',13
 1401,0,'City Ctr',14
 1400,0,'North Ind',14
-1503,0,'City Ctr',15
+1500,0,'City Ctr',15
+1501,0,'Vly Rd',15
 1700,0,'Stonebridge',17
 1701,0,'University',17
 1801,0,'College Pk',18
@@ -33,15 +34,12 @@
 1901,0,'Ctr Mall',19
 2001,0,'City Ctr',20
 2000,0,'South Ind',20
-2101,0,'University',21
-2200,0,'Montgomery',22
+2200,0,'Confederation Terminal',22
 2201,0,'University',22
-2301,0,'Blairmore',23
-2300,0,'Hampton Vlg',23
 2501,0,'North Ind',25
 2500,0,'Sask Tel Ctr',25
+2801,0,'Evergreen',28
 2800,0,'Silverspring',28
-2801,0,'Willowgrove',28
 3001,0,'City Ctr',30
 3000,0,'Lawson Hts',30
 3501,0,'City Ctr',35
@@ -56,6 +54,12 @@
 5501,0,'University',55
 6000,0,'City Ctr',60
 6001,0,'Confederation',60
+6101,0,'Blairmore',61
+6100,0,'City Ctr',61
+6200,0,'City Ctr',62
+6201,0,'Montgomery',62
+6300,0,'Confederation Terminal',63
+6301,0,'Hampton Vlg',63
 6500,0,'City Ctr',65
 6501,0,'Kensington',65
 8101,0,'Ctr Mall',81
@@ -68,45 +72,7 @@
 8401,0,'Ctr Mall',84
 8601,0,'Ctr Mall',86
 8600,0,'Rosewood',86
-10101,0,'Lakeridge',101
-10100,0,'University',101
-10200,0,'University',102
-10201,0,'University Direct 2',102
 10400,0,'Willowgrove Downtown Express',104
 18000,0,'Kenderdine Downtown Express',180
-30501,0,'City Ctr',305
-31100,0,'AM',311
-31101,0,'PM',311
-31400,0,'AM',314
-31401,0,'PM',314
-31501,0,'Special',315
-32501,0,'City Ctr',325
-33100,0,'AM',331
-33101,0,'PM',331
-33200,0,'AM',332
-33201,0,'PM',332
-33401,0,'Special',334
-33500,0,'AM',335
-33501,0,'PM',335
-33600,0,'Special',336
-33800,0,'AM',338
-33801,0,'PM',338
-33900,0,'AM',339
-33901,0,'PM',339
-34101,0,'Riversdale',341
-34100,0,'Special',341
-34200,0,'AM',342
-34201,0,'PM',342
-34603,0,'Ave W / 33rd st',346
-34604,0,'Shaw Ctr / Bowlt',346
-34800,0,'AM',348
-34801,0,'Special',348
-34900,0,'Special',349
-35200,0,'AM',352
-35201,0,'PM',352
-35401,0,'Special',354
-35601,0,'Special',356
-35800,0,'AM',358
-35801,0,'PM',358
 51401,0,'North Ind',514
 51400,0,'Sask Tel Ctr',514
