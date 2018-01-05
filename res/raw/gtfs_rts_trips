@@ -44,7 +44,7 @@
 3001,0,'City Ctr',30
 3000,0,'Lawson Hts',30
 3501,0,'City Ctr',35
-3500,0,'Silverwood',35
+3500,0,'Silverwood Hts',35
 4001,0,'City Ctr',40
 4000,0,'Evergreen',40
 4501,0,'City Ctr',45
@@ -79,6 +79,16 @@
 10200,0,'University',102
 10400,0,'Willowgrove Downtown Express',104
 18000,0,'Kenderdine Downtown Express',180
+31100,0,'AM',311
+31101,0,'PM',311
+31500,0,'Confederation Terminal',315
+31501,0,'Mt Royal - Feehan- Bedford',315
+32501,0,'City Ctr',325
+33200,0,'AM',332
+33600,0,'AM',336
+33601,0,'PM',336
+35200,0,'AM',352
+35201,0,'PM',352
 35800,0,'AM',358
 35801,0,'PM',358
 51401,0,'North Ind',514
