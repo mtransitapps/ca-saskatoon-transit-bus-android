@@ -5,7 +5,7 @@ Saskatoon Transit buses for MonTransit.
 Schedule. News. Service Alerts.
 ----------
 What's new in this version?:
-Schedule from July 1, 2018 to September 1, 2018.
+Schedule from July 1, 2018 to January 5, 2019.
 News from transit.saskatoon.ca.
 Tweets from @stoontransit.
 ----------
