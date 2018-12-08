@@ -51,10 +51,10 @@
 1026800,0,'Bowman / Murray / Cross',10268
 1026801,0,'Exhibition',10268
 1027000,0,'Confederation Terminal',10270
-1027001,0,'Mt Royal - Feehan- Bedford',10270
+1027001,0,'Royal - Feehan- Bedford',10270
 1027201,0,'City Ctr',10272
 1027300,0,'Holy Cross',10273
-1027500,0,'Cross / Muuray / Bowman',10275
+1027500,0,'Cross / Murray / Bowman',10275
 1027501,0,'Ctr Mall Terminal',10275
 1027600,0,'Cross / Murray',10276
 1027601,0,'Lakeview / Lakeridge',10276
@@ -98,3 +98,5 @@
 1031100,0,'Rosewood',10311
 1031501,0,'City Ctr',10315
 1031500,0,'Field House',10315
+1045900,0,'CCW',10459
+1045901,0,'CW',10459
