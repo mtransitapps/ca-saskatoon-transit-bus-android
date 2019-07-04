@@ -1,98 +1,86 @@
-1059400,0,'City Ctr',10594
-1059401,0,'Exhibition',10594
-1059501,0,'City Ctr',10595
-1059500,0,'Meadowgreen',10595
-1059601,0,'City Ctr',10596
-1059600,0,'Hudson Bay Pk',10596
-1059701,0,'City Ctr',10597
-1059801,0,'City Ctr',10598
-1059800,0,'McCormack',10598
-1059900,0,'City Ctr',10599
-1059901,0,'Mkt Mall',10599
-1060001,0,'City Ctr',10600
-1060000,0,'Dundonald',10600
-1060100,0,'8th St',10601
-1060101,0,'City Ctr',10601
-1060201,0,'City Ctr',10602
-1060200,0,'Riversdale',10602
-1060301,0,'City Ctr',10603
-1060300,0,'Pleasant Hl',10603
-1060600,0,'Airport',10606
-1060601,0,'City Ctr',10606
-1060701,0,'City Ctr',10607
-1060700,0,'River Hts',10607
-1060801,0,'Broadway',10608
-1060800,0,'Lawson Hts',10608
-1060901,0,'City Ctr',10609
-1060900,0,'North Ind',10609
-1061000,0,'City Ctr',10610
-1061001,0,'Civic Operations Ctr',10610
-1061100,0,'Stonebridge',10611
-1061101,0,'University',10611
-1061201,0,'College Pk',10612
-1061200,0,'University',10612
-1061300,0,'City Ctr',10613
-1061301,0,'Ctr Mall',10613
-1061401,0,'City Ctr',10614
-1061400,0,'South Ind',10614
-1061501,0,'University',10615
-1061601,0,'City Ctr',10616
-1061600,0,'Confederation Terminal',10616
-1061701,0,'North Ind',10617
-1061700,0,'Sask Tel Ctr',10617
-1061800,0,'Forest Grv',10618
-1061801,0,'University',10618
-1061900,0,'Evergreen',10619
-1061901,0,'University',10619
-1062001,0,'City Ctr',10620
-1062000,0,'Lawson Hts',10620
-1062400,0,'Bowman / Murray / Cross',10624
-1062401,0,'Exhibition',10624
-1062500,0,'Confederation Terminal',10625
-1062501,0,'Royal - Feehan- Bedford',10625
-1062701,0,'City Ctr',10627
-1062800,0,'Holy Cross',10628
-1063000,0,'Cross / Murray / Bowman',10630
-1063001,0,'Ctr Mall Terminal',10630
-1063100,0,'Cross / Murray',10631
-1063101,0,'Lakeview / Lakeridge',10631
-1063201,0,'City Ctr',10632
-1063200,0,'Silverwood Hts',10632
-1063301,0,'East College Pk',10633
-1063300,0,'St Joseph',10633
-1063400,0,'Bishop Murray',10634
-1063401,0,'City Ctr',10634
-1063501,0,'City Ctr',10635
-1063500,0,'Evergreen',10635
-1063601,0,'City Ctr',10636
-1063600,0,'Willowgrove',10636
-1063700,0,'Arbor Crk',10637
-1063701,0,'City Ctr',10637
-1063800,0,'Lakeview',10638
-1063801,0,'University',10638
-1064101,0,'North Ind',10641
-1064100,0,'Sask Tel Ctr',10641
-1064400,0,'Lakeridge',10644
-1064401,0,'University',10644
-1064901,0,'Confederation',10649
-1064900,0,'University',10649
-1065001,0,'Blairmore',10650
-1065000,0,'University',10650
-1065101,0,'Montgomery',10651
-1065100,0,'University',10651
-1065200,0,'Confederation Terminal',10652
-1065201,0,'Hampton Vlg',10652
-1065301,0,'Kensington',10653
-1065300,0,'University',10653
-1065401,0,'City Ctr',10654
-1065400,0,'Field House',10654
-1065501,0,'Ctr Mall',10655
-1065500,0,'University',10655
-1065601,0,'Ctr Mall',10656
-1065600,0,'University',10656
-1065700,0,'Ctr Mall',10657
-1065701,0,'Stonebridge',10657
-1065800,0,'Briarwood',10658
-1065801,0,'Ctr Mall',10658
-1065901,0,'Ctr Mall',10659
-1065900,0,'Rosewood',10659
+1066100,0,'City Ctr',10661
+1066101,0,'Exhibition',10661
+1066201,0,'City Ctr',10662
+1066200,0,'Meadowgreen',10662
+1066301,0,'City Ctr',10663
+1066300,0,'Hudson Bay Pk',10663
+1066401,0,'City Ctr',10664
+1066501,0,'City Ctr',10665
+1066500,0,'McCormack',10665
+1066600,0,'City Ctr',10666
+1066601,0,'Mkt Mall',10666
+1066701,0,'City Ctr',10667
+1066700,0,'Dundonald',10667
+1066800,0,'8th St',10668
+1066801,0,'City Ctr',10668
+1066901,0,'City Ctr',10669
+1066900,0,'Riversdale',10669
+1067001,0,'City Ctr',10670
+1067000,0,'Pleasant Hl',10670
+1067100,0,'University Direct 1',10671
+1067200,0,'University',10672
+1067300,0,'Airport',10673
+1067301,0,'City Ctr',10673
+1067401,0,'City Ctr',10674
+1067400,0,'River Hts',10674
+1067501,0,'Broadway',10675
+1067500,0,'Lawson Hts',10675
+1067601,0,'City Ctr',10676
+1067600,0,'North Ind',10676
+1067700,0,'City Ctr',10677
+1067701,0,'Civic Operations Ctr',10677
+1067800,0,'Stonebridge',10678
+1067801,0,'University',10678
+1067901,0,'College Pk',10679
+1067900,0,'University',10679
+1068000,0,'City Ctr',10680
+1068001,0,'Ctr Mall',10680
+1068101,0,'City Ctr',10681
+1068100,0,'South Ind',10681
+1068201,0,'University',10682
+1068301,0,'City Ctr',10683
+1068300,0,'Confederation Terminal',10683
+1068401,0,'North Ind',10684
+1068400,0,'Sask Tel Ctr',10684
+1068500,0,'Forest Grv',10685
+1068501,0,'University',10685
+1068600,0,'Evergreen',10686
+1068601,0,'University',10686
+1068701,0,'City Ctr',10687
+1068700,0,'Lawson Hts',10687
+1069901,0,'City Ctr',10699
+1069900,0,'Silverwood Hts',10699
+1070201,0,'City Ctr',10702
+1070200,0,'Evergreen',10702
+1070301,0,'City Ctr',10703
+1070300,0,'Willowgrove',10703
+1070400,0,'Arbor Crk',10704
+1070401,0,'City Ctr',10704
+1070500,0,'Lakeview',10705
+1070501,0,'University',10705
+1070801,0,'North Ind',10708
+1070800,0,'Sask Tel Ctr',10708
+1071100,0,'Lakeridge',10711
+1071101,0,'University',10711
+1071601,0,'Confederation',10716
+1071600,0,'University',10716
+1071701,0,'Blairmore',10717
+1071700,0,'University',10717
+1071801,0,'Montgomery',10718
+1071800,0,'University',10718
+1071900,0,'Confederation Terminal',10719
+1071901,0,'Hampton Vlg',10719
+1072001,0,'Kensington',10720
+1072000,0,'University',10720
+1072101,0,'City Ctr',10721
+1072100,0,'Field House',10721
+1072201,0,'Ctr Mall',10722
+1072200,0,'University',10722
+1072301,0,'Ctr Mall',10723
+1072300,0,'University',10723
+1072400,0,'Ctr Mall',10724
+1072401,0,'Stonebridge',10724
+1072500,0,'Briarwood',10725
+1072501,0,'Ctr Mall',10725
+1072601,0,'Ctr Mall',10726
+1072600,0,'Rosewood',10726
