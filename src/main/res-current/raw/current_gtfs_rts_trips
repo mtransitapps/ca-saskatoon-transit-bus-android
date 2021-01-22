@@ -26,7 +26,7 @@
 1153101,0,'Broadway',11531
 1153100,0,'Lawson Hts',11531
 1153201,0,'City Ctr',11532
-1153200,0,'North Ind',11532
+1153200,0,'N Ind',11532
 1153300,0,'City Ctr',11533
 1153301,0,'Civic Operations Ctr',11533
 1153400,0,'Stonebridge',11534
@@ -36,10 +36,10 @@
 1153600,0,'City Ctr',11536
 1153601,0,'Ctr Mall',11536
 1153701,0,'City Ctr',11537
-1153700,0,'South Ind',11537
+1153700,0,'S Ind',11537
 1153801,0,'University',11538
 1153901,0,'City Ctr',11539
-1153900,0,'Confederation Terminal',11539
+1153900,0,'Confederation Term',11539
 1154001,0,'North Ind',11540
 1154000,0,'Sask Tel Ctr',11540
 1154100,0,'Forest Grv',11541
@@ -51,16 +51,16 @@
 1154401,0,'City Ctr',11544
 1154700,0,'Bowman / Murray / Cross',11547
 1154701,0,'Exhibition',11547
-1154800,0,'Confederation Terminal',11548
+1154800,0,'Confederation Term',11548
 1154801,0,'Royal - Feehan- Bedford',11548
 1154901,0,'City Ctr',11549
 1155000,0,'Cross / Murray / Bowman',11550
-1155001,0,'Ctr Mall Terminal',11550
+1155001,0,'Ctr Mall Term',11550
 1155100,0,'Cross / Murray',11551
 1155101,0,'Lakeview / Lakeridge',11551
 1155201,0,'City Ctr',11552
 1155200,0,'Silverwood Hts',11552
-1155301,0,'East College Pk',11553
+1155301,0,'E College Pk',11553
 1155300,0,'St Joseph',11553
 1155400,0,'Bishop Murray',11554
 1155401,0,'City Ctr',11554
@@ -72,21 +72,21 @@
 1155701,0,'City Ctr',11557
 1155800,0,'Lakeview',11558
 1155801,0,'University',11558
-1156101,0,'North Ind',11561
+1156101,0,'N Ind',11561
 1156100,0,'Sask Tel Ctr',11561
 1156300,0,'Lakeridge',11563
 1156301,0,'University',11563
 1156601,0,'Confederation',11566
 1156600,0,'University',11566
 1156701,0,'Blairmore',11567
-1156700,0,'Confederation Terminal',11567
-1156800,0,'Confederation Terminal',11568
+1156700,0,'Confederation Term',11567
+1156800,0,'Confederation Term',11568
 1156801,0,'Montgomery',11568
-1156900,0,'Confederation Terminal',11569
+1156900,0,'Confederation Term',11569
 1156901,0,'Hampton Vlg',11569
 1157000,0,'City Ctr',11570
 1157001,0,'McCormack',11570
-1157100,0,'Confederation Terminal',11571
+1157100,0,'Confederation Term',11571
 1157101,0,'Kensington',11571
 1157201,0,'Ctr Mall',11572
 1157200,0,'University',11572
