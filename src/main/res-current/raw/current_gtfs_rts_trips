@@ -6,7 +6,7 @@
 1151800,0,'Hudsaon Bay Pk',11518
 1151901,0,'City Ctr',11519
 1152001,0,'City Ctr',11520
-1152000,0,'McCormack',11520
+1152000,0,'Confederation Term',11520
 1152100,0,'City Ctr',11521
 1152101,0,'Mkt Mall',11521
 1152201,0,'City Ctr',11522
@@ -15,7 +15,7 @@
 1152300,0,'Ctr Mall',11523
 1152401,0,'City Ctr',11524
 1152400,0,'Riversdale',11524
-1152501,0,'City Ctr',11525
+1152501,0,'Civic Op Ctr',11525
 1152500,0,'Pleasant Hl',11525
 1152600,0,'University Direct 1',11526
 1152700,0,'University',11527
@@ -28,7 +28,7 @@
 1153201,0,'City Ctr',11532
 1153200,0,'N Ind',11532
 1153300,0,'City Ctr',11533
-1153301,0,'Civic Operations Ctr',11533
+1153301,0,'Civic Op Ctr',11533
 1153400,0,'Stonebridge',11534
 1153401,0,'University',11534
 1153501,0,'College Pk',11535
@@ -40,8 +40,8 @@
 1153801,0,'University',11538
 1153901,0,'City Ctr',11539
 1153900,0,'Confederation Term',11539
-1154001,0,'North Ind',11540
-1154000,0,'Sask Tel Ctr',11540
+1154000,0,'Apex / Bill Hunter',11540
+1154001,0,'Millar / 60th St',11540
 1154100,0,'Forest Grv',11541
 1154101,0,'University',11541
 1154200,0,'Evergreen',11542
@@ -76,8 +76,8 @@
 1156100,0,'Sask Tel Ctr',11561
 1156300,0,'Lakeridge',11563
 1156301,0,'University',11563
+1156600,0,'City Ctr',11566
 1156601,0,'Confederation',11566
-1156600,0,'University',11566
 1156701,0,'Blairmore',11567
 1156700,0,'Confederation Term',11567
 1156800,0,'Confederation Term',11568
