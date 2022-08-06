@@ -1,2 +1,1 @@
-Saskatoon Transit buses for MonTransit.
-Schedule. News. Service Alerts.
+Saskatoon Transit buses for MonTransit. Schedule. News. Service Alerts.
