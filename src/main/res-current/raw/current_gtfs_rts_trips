@@ -1,93 +1,96 @@
-1286600,0,'City Ctr',12866
-1286601,0,'Exhibition',12866
-1286701,0,'City Ctr',12867
-1286700,0,'Meadowgreen',12867
-1286801,0,'City Ctr',12868
-1286800,0,'Hudson Bay Pk',12868
-1286901,0,'City Ctr',12869
-1287001,0,'City Ctr',12870
-1287000,0,'Confederation Term',12870
-1287100,0,'Broadway',12871
-1287101,0,'University',12871
-1287201,0,'City Ctr',12872
-1287200,0,'Dundonald',12872
-1287301,0,'City Ctr',12873
-1287300,0,'Ctr Mall',12873
-1287401,0,'City Ctr',12874
-1287400,0,'Riversdale',12874
-1287600,0,'Airport',12876
-1287601,0,'City Ctr',12876
-1287701,0,'City Ctr',12877
-1287700,0,'River Hts',12877
-1287800,0,'Lawson Hts',12878
-1287801,0,'University',12878
-1287901,0,'City Ctr',12879
-1287900,0,'N Ind',12879
-1288000,0,'City Ctr',12880
-1288001,0,'Civic Op Ctr',12880
-1288100,0,'Stonebridge',12881
-1288101,0,'University',12881
-1288201,0,'College Pk',12882
-1288200,0,'University',12882
-1288300,0,'City Ctr',12883
-1288301,0,'Ctr Mall',12883
-1288601,0,'City Ctr',12886
-1288600,0,'Confederation Term',12886
-1288700,0,'Apex / Bill Hunter',12887
-1288701,0,'Millar / 60th St',12887
-1288800,0,'Forest Grv',12888
-1288801,0,'University',12888
-1288900,0,'Evergreen',12889
-1288901,0,'University',12889
-1289001,0,'City Ctr',12890
-1289000,0,'Lawson Hts',12890
-1289400,0,'Bowman / Murray / Cross',12894
-1289401,0,'Exhibition',12894
-1289500,0,'Confederation Term',12895
-1289501,0,'Royal - Feehan- Bedford',12895
-1289601,0,'City Ctr',12896
-1289800,0,'Cross / Murray / Bowman',12898
-1289801,0,'Ctr Mall Term',12898
-1289900,0,'Cross / Murray',12899
-1289901,0,'Lakeview / Lakeridge',12899
-1290001,0,'City Ctr',12900
-1290000,0,'Silverwood Hts',12900
-1290101,0,'E College Pk',12901
-1290100,0,'St Joseph',12901
-1290200,0,'Bishop Murray',12902
-1290201,0,'City Ctr',12902
-1290301,0,'City Ctr',12903
-1290300,0,'Evergreen',12903
-1290401,0,'City Ctr',12904
-1290400,0,'Willowgrove',12904
-1290500,0,'Arbor Crk',12905
-1290501,0,'City Ctr',12905
-1290600,0,'115th St',12906
-1290601,0,'City Ctr',12906
-1290700,0,'Lakeview',12907
-1290701,0,'University',12907
-1291001,0,'N Ind',12910
-1291000,0,'Sask Tel Ctr',12910
-1291300,0,'Lakeridge',12913
-1291301,0,'University',12913
-1291500,0,'Stonebridge',12915
-1291600,0,'City Ctr',12916
-1291601,0,'Confederation',12916
-1291701,0,'Blairmore',12917
-1291700,0,'Confederation Term',12917
-1291900,0,'Confederation Term',12919
-1291901,0,'Hampton Vlg',12919
-1292000,0,'Confederation Term',12920
-1292001,0,'McCormack',12920
-1292100,0,'City Ctr',12921
-1292101,0,'Kensington',12921
-1292201,0,'Ctr Mall',12922
-1292200,0,'University',12922
-1292301,0,'Ctr Mall',12923
-1292300,0,'University',12923
-1292400,0,'Ctr Mall',12924
-1292401,0,'Stonebridge',12924
-1292500,0,'Briarwood',12925
-1292501,0,'Ctr Mall',12925
-1292601,0,'Ctr Mall',12926
-1292600,0,'Rosewood',12926
+1292900,0,'City Ctr',12929
+1292901,0,'Exhibition',12929
+1293001,0,'City Ctr',12930
+1293000,0,'Meadowgreen',12930
+1293101,0,'City Ctr',12931
+1293100,0,'Hudson Bay Pk',12931
+1293201,0,'City Ctr',12932
+1293301,0,'City Ctr',12933
+1293300,0,'Confederation Term',12933
+1293400,0,'Broadway',12934
+1293401,0,'University Only',12934
+1293501,0,'City Ctr',12935
+1293500,0,'Dundonald',12935
+1293601,0,'City Ctr',12936
+1293600,0,'Ctr Mall',12936
+1293701,0,'City Ctr',12937
+1293700,0,'Riversdale',12937
+1293800,0,'Airport',12938
+1293801,0,'City Ctr',12938
+1293901,0,'City Ctr',12939
+1293900,0,'River Hts',12939
+1294000,0,'Lawson Hts',12940
+1294001,0,'University',12940
+1294101,0,'City Ctr',12941
+1294100,0,'N Ind',12941
+1294200,0,'City Ctr',12942
+1294201,0,'Civic Op Ctr',12942
+1294300,0,'Stonebridge',12943
+1294301,0,'University',12943
+1294401,0,'College Pk',12944
+1294400,0,'University',12944
+1294500,0,'City Ctr',12945
+1294501,0,'Ctr Mall',12945
+1294601,0,'City Ctr',12946
+1294600,0,'Confederation Term',12946
+1294700,0,'Apex / Bill Hunter',12947
+1294701,0,'Millar / 60th St',12947
+1294800,0,'Forest Grv',12948
+1294801,0,'University',12948
+1294900,0,'Evergreen',12949
+1294901,0,'University',12949
+1295001,0,'City Ctr',12950
+1295000,0,'Lawson Hts',12950
+1295101,0,'City Ctr',12951
+1295400,0,'Bowman / Murray / Cross',12954
+1295401,0,'Exhibition',12954
+1295500,0,'Confederation Term',12955
+1295501,0,'Royal - Feehan- Bedford',12955
+1295601,0,'City Ctr',12956
+1295701,0,'City Ctr',12957
+1295700,0,'SaskTel Ctr',12957
+1295800,0,'Cross / Murray / Bowman',12958
+1295801,0,'Ctr Mall Term',12958
+1295900,0,'Cross / Murray',12959
+1295901,0,'Lakeview / Lakeridge',12959
+1296001,0,'City Ctr',12960
+1296000,0,'Silverwood Hts',12960
+1296101,0,'E College Pk',12961
+1296100,0,'St Joseph',12961
+1296200,0,'Bishop Murray',12962
+1296201,0,'City Ctr',12962
+1296301,0,'City Ctr',12963
+1296300,0,'Evergreen',12963
+1296401,0,'City Ctr',12964
+1296400,0,'Willowgrove',12964
+1296500,0,'Arbor Crk',12965
+1296501,0,'City Ctr',12965
+1296600,0,'115th St',12966
+1296601,0,'City Ctr',12966
+1296700,0,'Lakeview',12967
+1296701,0,'University',12967
+1296901,0,'N Ind',12969
+1296900,0,'Sask Tel Ctr',12969
+1297100,0,'Lakeridge',12971
+1297101,0,'University',12971
+1297300,0,'Stonebridge',12973
+1297400,0,'City Ctr',12974
+1297401,0,'Confederation',12974
+1297501,0,'Blairmore',12975
+1297500,0,'Confederation Term',12975
+1297600,0,'Confederation Term',12976
+1297601,0,'Hampton Vlg',12976
+1297700,0,'Confederation Term',12977
+1297701,0,'McCormack',12977
+1297800,0,'City Ctr',12978
+1297801,0,'Kensington',12978
+1297901,0,'Ctr Mall',12979
+1297900,0,'University',12979
+1298001,0,'Ctr Mall',12980
+1298000,0,'University',12980
+1298100,0,'Ctr Mall',12981
+1298101,0,'Stonebridge',12981
+1298200,0,'Briarwood',12982
+1298201,0,'Ctr Mall',12982
+1298301,0,'Ctr Mall',12983
+1298300,0,'Rosewood',12983
