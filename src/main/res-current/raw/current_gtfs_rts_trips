@@ -1,101 +1,99 @@
-1388000,0,'City Ctr',13880
-1388001,0,'Exhibition',13880
-1388101,0,'City Ctr',13881
-1388100,0,'Meadowgreen',13881
-1388201,0,'City Ctr',13882
-1388200,0,'Hudson Bay Pk',13882
-1388301,0,'City Ctr',13883
-1388401,0,'City Ctr',13884
-1388400,0,'Confederation Term',13884
-1388501,0,'Downtown Term S',13885
-1388500,0,'Mkt Mall Term I/B',13885
-1388601,0,'City Ctr',13886
-1388600,0,'Dundonald',13886
-1388701,0,'City Ctr',13887
-1388700,0,'Ctr Mall',13887
-1388801,0,'City Ctr',13888
-1388800,0,'Riversdale',13888
-1388900,0,'Airport',13889
-1388901,0,'City Ctr',13889
-1389001,0,'City Ctr',13890
-1389000,0,'River Hts',13890
-1389100,0,'Lawson Hts',13891
-1389101,0,'University',13891
-1389201,0,'City Ctr',13892
-1389200,0,'N Ind',13892
-1389300,0,'City Ctr',13893
-1389301,0,'Civic Op Ctr',13893
-1389400,0,'Eastview',13894
-1389401,0,'University',13894
-1389500,0,'Stonebridge',13895
-1389501,0,'University',13895
-1389601,0,'College Pk',13896
-1389600,0,'University',13896
-1389700,0,'City Ctr',13897
-1389701,0,'Ctr Mall',13897
-1389801,0,'City Ctr',13898
-1389800,0,'Confederation Term',13898
-1389900,0,'Apex / Bill Hunter',13899
-1389901,0,'Millar / 60th St',13899
-1390000,0,'Forest Grv',13900
-1390001,0,'University',13900
-1390100,0,'Evergreen',13901
-1390101,0,'University',13901
-1390201,0,'City Ctr',13902
-1390200,0,'Lawson Hts',13902
-1390301,0,'City Ctr',13903
-1390600,0,'Bowman / Murray / Cross',13906
-1390601,0,'Exhibition',13906
-1390700,0,'Confederation Term',13907
-1390701,0,'Royal - Feehan- Bedford',13907
-1390801,0,'City Ctr',13908
-1390901,0,'City Ctr',13909
-1390900,0,'SaskTel Ctr',13909
-1391000,0,'Cross / Murray / Bowman',13910
-1391001,0,'Ctr Mall Term',13910
-1391100,0,'Cross / Murray',13911
-1391101,0,'Lakeview / Lakeridge',13911
-1391201,0,'City Ctr',13912
-1391200,0,'Silverwood Hts',13912
-1391301,0,'E College Pk',13913
-1391300,0,'St Joseph',13913
-1391400,0,'Bishop Murray',13914
-1391401,0,'City Ctr',13914
-1391501,0,'City Ctr',13915
-1391500,0,'Evergreen',13915
-1391601,0,'City Ctr',13916
-1391600,0,'Willowgrove',13916
-1391700,0,'Arbor Crk',13917
-1391701,0,'City Ctr',13917
-1391800,0,'115th St',13918
-1391801,0,'City Ctr',13918
-1391900,0,'Lakeview',13919
-1391901,0,'University',13919
-1392000,0,'Meadowgreen',13920
-1392101,0,'N Ind',13921
-1392100,0,'Sask Tel Ctr',13921
-1392200,0,'Lakeridge',13922
-1392201,0,'University',13922
-1392300,0,'Stonebridge',13923
-1392400,0,'City Ctr',13924
-1392401,0,'Confederation',13924
-1392501,0,'Blairmore',13925
-1392500,0,'Confederation Term',13925
-1392600,0,'Confederation Term',13926
-1392601,0,'Hampton Vlg',13926
-1392700,0,'Confederation Term',13927
-1392701,0,'McCormack',13927
-1392800,0,'City Ctr',13928
-1392801,0,'Kensington',13928
-1392901,0,'Ctr Mall',13929
-1392900,0,'University',13929
-1393001,0,'Ctr Mall',13930
-1393000,0,'University',13930
-1393100,0,'Ctr Mall',13931
-1393101,0,'Stonebridge',13931
-1393200,0,'Briarwood',13932
-1393201,0,'Ctr Mall',13932
-1393301,0,'Ctr Mall',13933
-1393300,0,'Rosewood',13933
-1393400,0,'Mkt Mall Term I/B',13934
-1393401,0,'Pharmasave',13934
+1393500,0,'City Ctr',13935
+1393501,0,'Exhibition',13935
+1393601,0,'City Ctr',13936
+1393600,0,'Meadowgreen',13936
+1393701,0,'City Ctr',13937
+1393700,0,'Hudson Bay Pk',13937
+1393801,0,'City Ctr',13938
+1393901,0,'City Ctr',13939
+1393900,0,'Confederation Term',13939
+1394001,0,'Downtown Term S',13940
+1394000,0,'Mkt Mall Term I/B',13940
+1394101,0,'City Ctr',13941
+1394100,0,'Dundonald',13941
+1394201,0,'City Ctr',13942
+1394200,0,'Ctr Mall',13942
+1394301,0,'City Ctr',13943
+1394300,0,'Riversdale',13943
+1394400,0,'Airport',13944
+1394401,0,'City Ctr',13944
+1394501,0,'City Ctr',13945
+1394500,0,'River Hts',13945
+1394700,0,'Lawson Hts',13947
+1394701,0,'University',13947
+1394801,0,'City Ctr',13948
+1394800,0,'N Ind',13948
+1394900,0,'City Ctr',13949
+1394901,0,'Civic Op Ctr',13949
+1395000,0,'Eastview',13950
+1395001,0,'University',13950
+1395100,0,'Stonebridge',13951
+1395101,0,'University',13951
+1395201,0,'College Pk',13952
+1395200,0,'University',13952
+1395300,0,'City Ctr',13953
+1395301,0,'Ctr Mall',13953
+1395401,0,'City Ctr',13954
+1395400,0,'Confederation Term',13954
+1395500,0,'Apex / Bill Hunter',13955
+1395501,0,'Millar / 60th St',13955
+1395600,0,'Forest Grv',13956
+1395601,0,'University',13956
+1395700,0,'Evergreen',13957
+1395701,0,'University',13957
+1395801,0,'City Ctr',13958
+1395800,0,'Lawson Hts',13958
+1395901,0,'City Ctr',13959
+1396200,0,'Bowman / Murray / Cross',13962
+1396201,0,'Exhibition',13962
+1396300,0,'Confederation Term',13963
+1396301,0,'Royal - Feehan- Bedford',13963
+1396401,0,'City Ctr',13964
+1396501,0,'City Ctr',13965
+1396500,0,'SaskTel Ctr',13965
+1396600,0,'Cross / Murray / Bowman',13966
+1396601,0,'Ctr Mall Term',13966
+1396700,0,'Cross / Murray',13967
+1396701,0,'Lakeview / Lakeridge',13967
+1396801,0,'City Ctr',13968
+1396800,0,'Silverwood Hts',13968
+1396901,0,'E College Pk',13969
+1396900,0,'St Joseph',13969
+1397000,0,'Bishop Murray',13970
+1397001,0,'City Ctr',13970
+1397101,0,'City Ctr',13971
+1397100,0,'Evergreen',13971
+1397201,0,'City Ctr',13972
+1397200,0,'Willowgrove',13972
+1397300,0,'Arbor Crk',13973
+1397301,0,'City Ctr',13973
+1397400,0,'115th St',13974
+1397401,0,'City Ctr',13974
+1397500,0,'Lakeview',13975
+1397501,0,'University',13975
+1397600,0,'Meadowgreen',13976
+1397701,0,'N Ind',13977
+1397700,0,'Sask Tel Ctr',13977
+1397800,0,'Lakeridge',13978
+1397801,0,'University',13978
+1397900,0,'Stonebridge',13979
+1398000,0,'City Ctr',13980
+1398001,0,'Confederation',13980
+1398101,0,'Blairmore',13981
+1398100,0,'Confederation Term',13981
+1398200,0,'Confederation Term',13982
+1398201,0,'Hampton Vlg',13982
+1398300,0,'Confederation Term',13983
+1398301,0,'McCormack',13983
+1398400,0,'City Ctr',13984
+1398401,0,'Kensington',13984
+1398501,0,'Ctr Mall',13985
+1398500,0,'University',13985
+1398601,0,'Ctr Mall',13986
+1398600,0,'University',13986
+1398700,0,'Ctr Mall',13987
+1398701,0,'Stonebridge',13987
+1398800,0,'Briarwood',13988
+1398801,0,'Ctr Mall',13988
+1398901,0,'Ctr Mall',13989
+1398900,0,'Rosewood',13989

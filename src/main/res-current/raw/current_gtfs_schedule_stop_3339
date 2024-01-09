@@ -1,28 +1,25 @@
-'1',1388700,242240,,'',0
-'2',1388700,242240,,'',0
-'8003',1388700,205500,,'',0,66740,,'',0
-'10801',1389100,140450,0,'University',0,10000,0,'University',0,3000,0,'University',0,10000,0,'University',0,7000,0,'University',0,10000,0,'University',0,2980,0,'University',0
-'1201',1389100,140450,0,'University',0,10000,0,'University',0,3000,0,'University',0,10000,0,'University',0,7000,0,'University',0,10000,0,'University',0,2980,0,'University',0
-'1',1389100,65450,0,'University',0,7000,0,'University',0,3000,0,'University',0,7000,0,'University',0,3000,0,'University',0,7000,0,'University',0,3000,0,'University',0,7000,0,'University',0,3000,0,'University',0,7000,0,'University',0,3000,0,'University',0,7000,0,'University',0,3000,0,'University',0,7000,0,'University',0,11000,0,'University',0,17000,0,'University',0,13000,0,'University',0
-'2201',1389100,92320,0,'University',0
-'3001',1389100,75320,0,'University',0,7000,0,'University',0,3000,0,'University',0
-'10801',1392900,100000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
-'11903',1392900,85500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
-'1201',1392900,100000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
-'1',1392900,80000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7300,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,2700,0,'Ctr Mall',0,2500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
-'2',1392900,65500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
-'8003',1392900,85500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,20000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
-'10801',1393000,134000,0,'Ctr Mall',0,17300,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,17000,0,'Ctr Mall',0
-'1201',1393000,134000,0,'Ctr Mall',0,17300,0,'Ctr Mall',0,13000,0,'Ctr Mall',0,17000,0,'Ctr Mall',0
-'1',1393000,63740,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3260,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,17300,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
-'2901',1393000,154300,0,'Ctr Mall',0
-'2',1393000,111000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0
-'3001',1393000,154300,0,'Ctr Mall',0
-'11903',1393200,92500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
-'1',1393200,192500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
-'2',1393200,72500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,90000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
-'8003',1393200,92500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
-'10801',1393300,75000,0,'Ctr Mall',0,17000,0,'Ctr Mall',0,30000,0,'Ctr Mall',0,30300,0,'Ctr Mall',0
-'1201',1393300,75000,0,'Ctr Mall',0,17000,0,'Ctr Mall',0,30000,0,'Ctr Mall',0,30300,0,'Ctr Mall',0
-'1',1393300,62240,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,9760,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3300,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0
-'2',1393300,145500,0,'Ctr Mall',0
+'1',1394200,242240,,'',0
+'2',1394200,242240,,'',0
+'10801',1394700,140450,0,'University',0,10000,0,'University',0,3000,0,'University',0,10000,0,'University',0,7000,0,'University',0,10000,0,'University',0,2980,0,'University',0
+'1201',1394700,140450,0,'University',0,10000,0,'University',0,3000,0,'University',0,10000,0,'University',0,7000,0,'University',0,10000,0,'University',0,2980,0,'University',0
+'1',1394700,65450,0,'University',0,7000,0,'University',0,3000,0,'University',0,7000,0,'University',0,3000,0,'University',0,7000,0,'University',0,3000,0,'University',0,7000,0,'University',0,3000,0,'University',0,7000,0,'University',0,3000,0,'University',0,7000,0,'University',0,3000,0,'University',0,7000,0,'University',0,11000,0,'University',0,17000,0,'University',0,13000,0,'University',0
+'2201',1394700,92320,0,'University',0
+'3001',1394700,75320,0,'University',0,7000,0,'University',0,3000,0,'University',0
+'10801',1398500,100000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
+'1201',1398500,100000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
+'1',1398500,80000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7300,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,2700,0,'Ctr Mall',0,2500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
+'2',1398500,65500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
+'3',1398500,85500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
+'10801',1398600,134000,0,'Ctr Mall',0,17300,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,17000,0,'Ctr Mall',0
+'1201',1398600,134000,0,'Ctr Mall',0,17300,0,'Ctr Mall',0,13000,0,'Ctr Mall',0,17000,0,'Ctr Mall',0
+'1',1398600,63740,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3260,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,17300,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
+'2901',1398600,154300,0,'Ctr Mall',0
+'2',1398600,111000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0
+'3001',1398600,154300,0,'Ctr Mall',0
+'1',1398800,192500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
+'2',1398800,72500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,90000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
+'3',1398800,92500,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0
+'10801',1398900,75000,0,'Ctr Mall',0,17000,0,'Ctr Mall',0,30000,0,'Ctr Mall',0,30300,0,'Ctr Mall',0
+'1201',1398900,75000,0,'Ctr Mall',0,17000,0,'Ctr Mall',0,30000,0,'Ctr Mall',0,30300,0,'Ctr Mall',0
+'1',1398900,62240,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,9760,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3300,0,'Ctr Mall',0,10000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0,3000,0,'Ctr Mall',0,7000,0,'Ctr Mall',0
+'2',1398900,145500,0,'Ctr Mall',0
