@@ -19,8 +19,8 @@
 1405301,0,'City Ctr',14053
 1405401,0,'City Ctr',14054
 1405400,0,'River Hts',14054
+1405501,0,'Avalon',14055
 1405500,0,'Lawson Hts',14055
-1405501,0,'University',14055
 1405601,0,'City Ctr',14056
 1405600,0,'N Ind',14056
 1405700,0,'City Ctr',14057
@@ -75,7 +75,6 @@
 1408500,0,'Sask Tel Ctr',14085
 1408600,0,'Lakeridge',14086
 1408601,0,'University',14086
-1408700,0,'Stonebridge',14087
 1408800,0,'City Ctr',14088
 1408801,0,'Confederation',14088
 1408901,0,'Blairmore',14089
@@ -97,9 +96,7 @@
 1409701,0,'Ctr Mall',14097
 1409700,0,'Rosewood',14097
 1409801,0,'Folkfest Downtown',14098
-1409800,0,'Folkfest Prairieland',14098
-1409901,0,'Folkfest City Hall',14099
-1409900,0,'Folkfest Irish Pavilion',14099
+1409800,0,'Folkfest German Pavilion / Folkfest Prairieland',14098
 1410101,0,'Ctr Mall',14101
 1410100,0,'The Mdws',14101
 1410300,0,'Brighton',14103
