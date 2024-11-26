@@ -51,6 +51,8 @@
 1425000,0,'Confederation Term',14250
 1425001,0,'Royal - Feehan- Bedford',14250
 1425101,0,'City Ctr',14251
+1425201,0,'City Ctr',14252
+1425200,0,'SaskTel Ctr',14252
 1425300,0,'Cross / Murray / Bowman',14253
 1425301,0,'Ctr Mall Term',14253
 1425400,0,'Cross / Murray',14254
@@ -71,10 +73,12 @@
 1426101,0,'City Ctr',14261
 1426200,0,'Lakeview',14262
 1426201,0,'University',14262
+1426300,0,'Meadowgreen',14263
 1426401,0,'N Ind',14264
 1426400,0,'Sask Tel Ctr',14264
 1426500,0,'Lakeridge',14265
 1426501,0,'University',14265
+1426600,0,'Stonebridge',14266
 1426700,0,'City Ctr',14267
 1426701,0,'Confederation',14267
 1426801,0,'Blairmore',14268
@@ -97,7 +101,7 @@
 1427600,0,'Rosewood',14276
 1427701,0,'Ctr Mall',14277
 1427700,0,'The Mdws',14277
+1427900,0,'JBE - Ctr Mall',14279
 1427901,0,'JBE - Mkt Mall',14279
-1427900,0,'JBE-Mkt Mall',14279
 1428101,0,'Evergreen',14281
 1428100,0,'Nelson Rd',14281

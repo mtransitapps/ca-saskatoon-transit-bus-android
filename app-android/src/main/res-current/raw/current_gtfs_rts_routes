@@ -26,6 +26,7 @@
 14249,'311','Cross, Murray & Bowman','FF8000',46851380,3
 14250,'315','Bedford, Feehan & Royal','FF8000',46851402,3
 14251,'325','Oskayak & Nutana','FF8000',46851403,3
+14252,'333','SaskTel Centre / City Centre','FF8000',46851404,3
 14253,'336','Aden Bowman','FF8000',46851405,3
 14254,'338','Cross & Murray','FF8000',46851406,3
 14255,'35','Silverwood / City Centre','F48FA8',46851407,3
@@ -36,8 +37,10 @@
 14260,'45','Arbor Creek / City Centre','A47CC1',46851433,3
 14261,'46','115th Street / City Centre','FF8000',46851434,3
 14262,'50','Lakeview / University','FF8000',46851435,3
+14263,'502','Route 2 Overloads','FF8000',46851436,3
 14264,'514','Sasktel Centre / North Ind','9EC149',46851437,3
 14265,'55','Lakeridge / University','FF8000',46851438,3
+14266,'583','Stonebridge / Centre Mall','FF8000',46851439,3
 14267,'60','City Centre / Confederation','359E30',46851440,3
 14268,'61','Confederation / Blairmore','FF8000',46851441,3
 14269,'63','Confederation / Hampton Village','FF8000',46851442,3
