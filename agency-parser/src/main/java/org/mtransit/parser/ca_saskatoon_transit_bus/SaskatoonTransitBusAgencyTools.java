@@ -16,8 +16,9 @@ import java.util.Locale;
 import java.util.regex.Pattern;
 
 // http://opendata-saskatoon.cloudapp.net/
-// http://ww9.saskatoon.ca/app/qGoogleTransit/google_transit.zip
-// http://apps2.saskatoon.ca/app/data/google_transit.zip
+// https://www.saskatoon.ca/services-residents/connect-your-city/open-data
+// https://opendata.saskatoon.ca/
+// https://transit.saskatoon.ca/about-us/open-data-saskatoon-transit
 public class SaskatoonTransitBusAgencyTools extends DefaultAgencyTools {
 
 	public static void main(@NotNull String[] args) {
