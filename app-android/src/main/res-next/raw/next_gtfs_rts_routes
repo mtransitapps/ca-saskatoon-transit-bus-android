@@ -1,52 +1,44 @@
-14456,'1','City Centre / Exhibition','FF8000',46853330,3
-14457,'2','Meadowgreen / City Centre','FF8040',46853331,3
-14458,'3','City Centre / Hudson Bay Park','36B274',46853332,3
-14459,'4','City Centre','FF8000',46853333,3
-14460,'5','City Centre / Confederation','EE4F9C',46853355,3
-14461,'6','Wilson Cres / City Centre','8F9336',46853356,3
-14462,'7','Dundonald / City Centre','3FA89B',46853357,3
-14463,'8','8th Street / City Centre','FF8000',46853358,3
-14464,'9','Riversdale / City Centre','006480',46853359,3
-14465,'11','Airport / City Centre','8AB0DD',46853360,3
-14466,'12','River Heights / City Centre','42D160',46853361,3
-14467,'13','Lawson Heights / Avalon','72C1DD',46853362,3
-14468,'14','North Industrial / City Centre','9EC149',46853363,3
-14469,'15','City Centre / Civic Op Centre','FF8000',46853364,3
-14470,'16','Eastview / City Centre','FF8000',46853386,3
-14471,'17','Stonebridge / University','FF8000',46853387,3
-14472,'18','College Park / University','FF8000',46853388,3
-14473,'19','City Centre / Centre Mall','E74634',46853389,3
-14474,'22','City Centre / Confederation','D1C85D',46853390,3
-14475,'25','SaskTel Centre','ED0874',46853391,3
-14476,'26','Forest Grove / University','FF8000',46853392,3
-14477,'27','Silverspring / University','FF8000',46853393,3
-14478,'29','Brighton / University','FF8000',46853394,3
-14479,'30','Lawson Heights / City Centre','FFCCCC',46853395,3
-14483,'311','Cross, Murray & Bowman','FF8000',46853420,3
-14484,'315','Bedford, Feehan & Royal','FF8000',46853421,3
-14485,'325','Oskayak & Nutana','FF8000',46853422,3
-14487,'336','Aden Bowman','FF8000',46853424,3
-14488,'338','Cross & Murray','FF8000',46853425,3
-14489,'35','Silverwood / City Centre','F48FA8',46853426,3
-14490,'352','St Joseph','FF8000',46853448,3
-14491,'358','Bishop Murray','FF0000',46853449,3
-14492,'43','Evergreen / City Centre','FF8000',46853450,3
-14493,'44','Willowgrove / City Centre','FF8000',46853451,3
-14494,'45','Arbor Creek / City Centre','A47CC1',46853452,3
-14495,'46','115th Street / City Centre','FF8000',46853453,3
-14496,'50','Lakeview / University','FF8000',46853454,3
-14498,'514','Sasktel Centre / North Ind','9EC149',46853456,3
-14499,'543','Nelson Road / Evergreen','008080',46853457,3
-14500,'55','Lakeridge / University','FF8000',46854130,3
-14501,'583','Stonebridge / Centre Mall','FF8000',46854131,3
-14502,'60','City Centre / Confederation','359E30',46854132,3
-14503,'61','Confederation / Blairmore','FF8000',46854133,3
-14504,'63','Confederation / Hampton Village','FF8000',46854134,3
-14505,'64','Confederation / McCormack','FF8000',46854135,3
-14506,'65','City Centre / Kensington','B3B35A',46854136,3
-14507,'81','Cumberland / Centre Mall','FF8000',46854137,3
-14508,'82','Main Street / Centre Mall','FF8000',46854138,3
-14509,'83','Centre Mall / Stonebridge','FF8000',46854139,3
-14510,'84','Briarwood / Centre Mall','FF8000',46854161,3
-14511,'86','Rosewood / Centre Mall','FF8000',46854162,3
-14512,'87','The Meadows / Centre Mall','FF8000',46854163,3
+14398,'1','City Centre / Exhibition','FF8000',46852495,3
+14399,'2','Meadowgreen / City Centre','FF8040',46852496,3
+14400,'3','City Centre / Hudson Bay Park','36B274',46853169,3
+14401,'4','City Centre','FF8000',46853170,3
+14402,'5','City Centre / Confederation','EE4F9C',46853171,3
+14403,'6','Wilson Cres / City Centre','8F9336',46853172,3
+14404,'7','Dundonald / City Centre','3FA89B',46853173,3
+14405,'8','8th Street / City Centre','FF8000',46853174,3
+14406,'9','Riversdale / City Centre','006480',46853175,3
+14407,'11','Airport / City Centre','8AB0DD',46853176,3
+14408,'12','River Heights / City Centre','42D160',46853177,3
+14410,'14','North Industrial / City Centre','9EC149',46853200,3
+14411,'15','City Centre / Civic Op Centre','FF8000',46853201,3
+14412,'16','Eastview / City Centre','FF8000',46853202,3
+14413,'17','Stonebridge / Lawson','FF8000',46853203,3
+14414,'18','College Park / University','FF8000',46853204,3
+14415,'19','City Centre / Centre Mall','E74634',46853205,3
+14416,'22','City Centre / Confederation','D1C85D',46853206,3
+14417,'25','SaskTel Centre','ED0874',46853207,3
+14418,'26','Forest Grove / University','FF8000',46853208,3
+14419,'27','Silverspring / University','FF8000',46853209,3
+14420,'29','Brighton / University','FF8000',46853231,3
+14421,'30','Lawson Heights / City Centre','FFCCCC',46853232,3
+14422,'305','Ablities Council','FF0000',46853233,3
+14431,'35','Silverwood / City Centre','F48FA8',46853263,3
+14434,'43','Evergreen / City Centre','FF8000',46853266,3
+14435,'44','Willowgrove / City Centre','FF8000',46853267,3
+14436,'45','Arbor Creek / City Centre','A47CC1',46853268,3
+14437,'46','115th Street / City Centre','FF8000',46853269,3
+14438,'50','Lakeview / University','FF8000',46853270,3
+14440,'514','Sasktel Centre / North Ind','9EC149',46853293,3
+14441,'543','Nelson Road / Evergreen','008080',46853294,3
+14442,'55','Lakeridge / University','FF8000',46853295,3
+14444,'60','City Centre / Confederation','359E30',46853297,3
+14445,'61','Confederation / Blairmore','FF8000',46853298,3
+14446,'63','Confederation / Hampton Village','FF8000',46853299,3
+14447,'64','Confederation / McCormack','FF8000',46853300,3
+14448,'65','City Centre / Kensington','B3B35A',46853301,3
+14451,'83','Centre Mall / Stonebridge','FF8000',46853325,3
+14452,'84','Briarwood / Centre Mall','FF8000',46853326,3
+14453,'86','Rosewood / Centre Mall','FF8000',46853327,3
+14454,'87','The Meadows / Centre Mall','FF8000',46853328,3
+14455,'10','Centre Mall / University','000080',46853329,3
+14513,'150','Folkfest East / FF City Hall','C0C0C0',46854164,3
