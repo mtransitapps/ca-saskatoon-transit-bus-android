@@ -38,11 +38,6 @@ public class SaskatoonTransitBusAgencyTools extends DefaultAgencyTools {
 	}
 
 	@Override
-	public boolean defaultExcludeEnabled() {
-		return true;
-	}
-
-	@Override
 	public boolean excludeTrip(@NotNull GTrip gTrip) {
 		if ("Not In Service".equalsIgnoreCase(gTrip.getTripHeadsign())) {
 			return EXCLUDE;
