@@ -9,7 +9,7 @@ import org.mtransit.parser.gtfs.data.GRoute;
 import org.mtransit.parser.gtfs.data.GStop;
 import org.mtransit.parser.gtfs.data.GTrip;
 import org.mtransit.parser.mt.data.MAgency;
-import org.mtransit.parser.mt.data.MTrip;
+import org.mtransit.parser.mt.data.MDirection;
 
 import java.util.List;
 import java.util.Locale;
