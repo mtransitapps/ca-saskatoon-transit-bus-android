@@ -3,8 +3,11 @@
     <integer name="gtfs_real_time_db_version">1</integer>
     <string name="gtfs_real_time_for_poi_authority">@string/gtfs_rts_authority</string>
     <bool name="gtfs_real_time_stop_id_is_stop_code">true</bool>
+    <!-- <string name="gtfs_real_time_agency_service_alerts_url">https://apps2.saskatoon.ca/app/data/Alert/Alerts.pb</string> -->
     <string name="gtfs_real_time_agency_service_alerts_url">https://saskprdtmgtfs.sasktrpcloud.com/TMGTFSRealTimeWebService/Alert/Alerts.pb</string>
+    <!-- <string name="gtfs_real_time_agency_vehicle_positions_url">https://apps2.saskatoon.ca/app/data/Vehicle/VehiclePositions.pb</string> -->
     <string name="gtfs_real_time_agency_vehicle_positions_url">https://saskprdtmgtfs.sasktrpcloud.com/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb</string>
+    <!-- <string name="gtfs_real_time_agency_trip_updates_url">https://apps2.saskatoon.ca/app/data/TripUpdate/TripUpdates.pb</string> -->
     <string name="gtfs_real_time_agency_trip_updates_url">https://saskprdtmgtfs.sasktrpcloud.com/TMGTFSRealTimeWebService/TripUpdate/TripUpdates.pb</string>
     <string name="gtfs_real_time_agency_id" />
     <string name="gtfs_real_time_agency_bold_words" />
