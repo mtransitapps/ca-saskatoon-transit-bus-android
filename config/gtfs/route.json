@@ -1,0 +1,48 @@
+{
+  "default_route_id_enabled": "true",
+  "use_route_short_name_for_route_id": "false",
+  "route_short_name_cleaners": [
+    {
+      "regex": "^0+"
+    }
+  ],
+  "default_route_long_name_enabled": "true",
+  "direction_finder_enabled": "true",
+  "trip_excludes": [
+    {
+      "trip_headsign_regex": "^Not In Service$",
+      "ignore_case": "true"
+    },
+    {
+      "trip_headsign_regex": "^Out Of Service$",
+      "ignore_case": "true"
+    }
+  ],
+  "trip_headsign_cleaners": [
+    {
+      "regex_old": "((^|\\W)(confederartion)(\\W|$))",
+      "replacement_old": "$2Confederation$4",
+      "is_word": "true",
+      "regex": "confederartion",
+      "replacement": "Confederation"
+    },
+    {
+      "is_word": "true",
+      "regex": "forestgrove",
+      "replacement": "Forest Grove"
+    },
+    {
+      "is_word": "true",
+      "regex": "ciity",
+      "replacement": "City"
+    },
+    {
+      "is_word": "true",
+      "regex": "cenrtre",
+      "replacement": "Centre"
+    }
+  ],
+  "trip_headsign_remove_via": "true",
+  "stop_id_clean_merged": "true",
+  "use_stop_code_for_stop_id": "true"
+}
