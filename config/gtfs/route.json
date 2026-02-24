@@ -20,8 +20,6 @@
   ],
   "trip_headsign_cleaners": [
     {
-      "regex_old": "((^|\\W)(confederartion)(\\W|$))",
-      "replacement_old": "$2Confederation$4",
       "is_word": "true",
       "regex": "confederartion",
       "replacement": "Confederation"
@@ -44,5 +42,6 @@
   ],
   "trip_headsign_remove_via": "true",
   "stop_id_clean_merged": "true",
-  "use_stop_code_for_stop_id": "true"
+  "use_stop_code_for_stop_id": "true",
+  "allow_invalid_stop_times_until": "20260324"
 }
