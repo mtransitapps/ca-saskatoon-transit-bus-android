@@ -6,4 +6,5 @@
     <string name="gtfs_real_time_agency_vehicle_positions_url">https://saskprdtmgtfs.sasktrpcloud.com/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb</string>
     <!-- <string name="gtfs_real_time_agency_trip_updates_url">https://apps2.saskatoon.ca/app/data/TripUpdate/TripUpdates.pb</string> -->
     <string name="gtfs_real_time_agency_trip_updates_url">https://saskprdtmgtfs.sasktrpcloud.com/TMGTFSRealTimeWebService/TripUpdate/TripUpdates.pb</string>
+    <bool name="gtfs_real_time_agency_ignore_direction">true</bool>
 </resources>
