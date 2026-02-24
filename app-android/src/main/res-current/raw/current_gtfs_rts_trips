@@ -7,13 +7,13 @@
 1440101,0,'City Ctr',14401
 1440201,0,'City Ctr',14402
 1440200,0,'Confederation Term',14402
-1440301,0,'Downtown Term S',14403
-1440300,0,'Mkt Mall Term I/B',14403
+1440300,0,'Wilson Cr',14403
+1440301,0,'Wilson Cr Via Eastview',14403
 1440401,0,'City Ctr',14404
 1440400,0,'Dundonald',14404
 1440501,0,'City Ctr',14405
 1440500,0,'Ctr Mall',14405
-1440601,0,'City Ctr',14406
+1440601,0,'City Ctr Via Riversdale',14406
 1440600,0,'Riversdale',14406
 1440700,0,'Airport',14407
 1440701,0,'City Ctr',14407
@@ -30,16 +30,16 @@
 1441401,0,'College Pk',14414
 1441400,0,'University',14414
 1441500,0,'City Ctr',14415
-1441501,0,'Ctr Mall',14415
+1441501,0,'Ctr Mall Via Lorne',14415
 1441601,0,'City Ctr',14416
 1441600,0,'Confederation Term',14416
 1441700,0,'Apex / Bill Hunter',14417
 1441701,0,'Millar / 60th St',14417
 1441800,0,'Forest Grv',14418
 1441801,0,'University',14418
-1441900,0,'Evergreen',14419
+1441900,0,'Evergreen Via Silverspring',14419
 1441901,0,'University',14419
-1442000,0,'Brighton',14420
+1442000,0,'Brighton VIA Nelson',14420
 1442001,0,'University',14420
 1442101,0,'City Ctr',14421
 1442100,0,'Lawson Hts',14421
@@ -80,5 +80,5 @@
 1445300,0,'Rosewood',14453
 1445401,0,'Ctr Mall',14454
 1445400,0,'The Mdws',14454
-1445500,0,'Ctr Mall',14455
-1445501,0,'University',14455
+1445500,0,'Ctr Mall Via Taylor',14455
+1445501,0,'University Via Cumberland',14455
