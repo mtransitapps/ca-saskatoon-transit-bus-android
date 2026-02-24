@@ -1,0 +1,9 @@
+{
+  "target_route_type_id": "3",
+  "default_color_enabled": "true",
+  "default_color": "027AA7",
+  "default_color_comment": "BLUE (from web site CSS)",
+  "service_id_clean_merged": "true",
+  "default_strings_cleaner_enabled": "true",
+  "to_lower_upper_case_strings": "true"
+}
