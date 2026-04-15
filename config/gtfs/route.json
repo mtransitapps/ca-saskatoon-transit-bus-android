@@ -1,13 +1,13 @@
 {
-  "default_route_id_enabled": "true",
+  "default_route_id_enabled": true,
   "use_route_short_name_for_route_id": "false",
   "route_short_name_cleaners": [
     {
       "regex": "^0+"
     }
   ],
-  "default_route_long_name_enabled": "true",
-  "direction_finder_enabled": "true",
+  "default_route_long_name_enabled": true,
+  "direction_finder_enabled": true,
   "trip_excludes": [
     {
       "trip_headsign_regex": "^Not In Service$",
@@ -21,28 +21,33 @@
   "direction_headsign_remove_route_long_name": true,
   "trip_headsign_cleaners": [
     {
-      "is_word": "true",
+      "is_word": true,
       "regex": "confederartion",
       "replacement": "Confederation"
     },
     {
-      "is_word": "true",
+      "is_word": true,
       "regex": "forestgrove",
       "replacement": "Forest Grove"
     },
     {
-      "is_word": "true",
+      "is_word": true,
       "regex": "ciity",
       "replacement": "City"
     },
     {
-      "is_word": "true",
+      "is_word": true,
       "regex": "cenrtre",
       "replacement": "Centre"
+    },
+    {
+      "regex": "Sask Tel Centre",
+      "ignore_case": "true",
+      "replacement": "SaskTel Ctr"
     }
   ],
-  "trip_headsign_remove_via": "true",
-  "stop_id_clean_merged": "true",
-  "use_stop_code_for_stop_id": "true",
+  "trip_headsign_remove_via": true,
+  "stop_id_clean_merged": true,
+  "use_stop_code_for_stop_id": true,
   "allow_invalid_stop_times_until": "20260424"
 }
