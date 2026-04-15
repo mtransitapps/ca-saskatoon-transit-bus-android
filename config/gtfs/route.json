@@ -18,6 +18,7 @@
       "ignore_case": "true"
     }
   ],
+  "direction_headsign_remove_route_long_name": true,
   "trip_headsign_cleaners": [
     {
       "is_word": "true",
