@@ -43,5 +43,5 @@
   "trip_headsign_remove_via": "true",
   "stop_id_clean_merged": "true",
   "use_stop_code_for_stop_id": "true",
-  "allow_invalid_stop_times_until": "20260424"
+  "allow_invalid_stop_times_until": "20260624"
 }
