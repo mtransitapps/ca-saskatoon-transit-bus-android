@@ -28,7 +28,9 @@ jobs:
           set -euo pipefail
 
           output_dir="arcgis-csv"
+          archive_dir="agency-parser/archive"
           mkdir -p "${output_dir}"
+          mkdir -p "${archive_dir}"
 
           url_encode() {
             python3 -c 'import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))' "$1"
@@ -93,10 +95,44 @@ jobs:
           echo "Downloaded files:"
           ls -lah "${output_dir}"
 
+          read -r min_start_date max_end_date < <(
+            python3 - <<'PY'
+import csv
+
+min_start_date = None
+max_end_date = None
+
+with open("arcgis-csv/calendar.txt", newline="", encoding="utf-8-sig") as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        start_date = (row.get("start_date") or "").strip()
+        end_date = (row.get("end_date") or "").strip()
+        if start_date and (min_start_date is None or start_date < min_start_date):
+            min_start_date = start_date
+        if end_date and (max_end_date is None or end_date > max_end_date):
+            max_end_date = end_date
+
+if not min_start_date or not max_end_date:
+    raise SystemExit("ERROR: Could not determine min start_date and max end_date from calendar.txt")
+
+print(min_start_date, max_end_date)
+PY
+          )
+
+          archive_file="${archive_dir}/${min_start_date}-${max_end_date}.zip"
+          rm -f "${archive_file}"
+          (
+            cd "${output_dir}"
+            zip -q -r "../${archive_file}" ./*.txt
+          )
+          echo "Created archive: ${archive_file}"
+
       - name: Upload downloaded CSV files
         uses: actions/upload-artifact@v4
         with:
           name: issue-1-csv-files
-          path: arcgis-csv/
+          path: |
+            arcgis-csv/
+            agency-parser/archive/*.zip
           if-no-files-found: error
           retention-days: 31
