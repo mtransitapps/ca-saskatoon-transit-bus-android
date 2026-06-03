@@ -11,7 +11,14 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
+  issues: write
+
+env:
+  MT_BOT_USER_NAME: ${{ vars.MT_BOT_USER_NAME }}
+  MT_BOT_USER_EMAIL: ${{ vars.MT_BOT_USER_EMAIL }}
+  MT_BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
 
 jobs:
   MT-DOWNLOAD-ISSUE-1-CSV-JOB:
@@ -21,6 +28,8 @@ jobs:
     steps:
       - name: MT check out repository code
         uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.MT_PAT }}
 
       - name: Download ArcGIS CSV files
         shell: bash
@@ -114,3 +123,55 @@ jobs:
             agency-parser/archive/*.zip
           if-no-files-found: error
           retention-days: 31
+
+      - name: MT commit archive
+        continue-on-error: true
+        id: mt-commit-archive
+        run: |
+          PR_BRANCH="${MT_BRANCH_NAME}_update_issue_1_archive"
+          git add -v -A agency-parser/archive/
+          if git diff --staged --quiet; then
+            echo "No new archive to commit."
+            exit 1 # fail == no PR needed
+          fi
+          git config user.name "$MT_BOT_USER_NAME"
+          git config user.email "$MT_BOT_USER_EMAIL"
+          git switch -C "${PR_BRANCH}"
+          git commit -m "Update issue #1 archive in \`${MT_BRANCH_NAME}\`"
+          git push -u origin "${PR_BRANCH}" --force
+          echo "PR_BRANCH=${PR_BRANCH}" >> "$GITHUB_OUTPUT"
+          exit 0 # success == PR needed
+
+      - name: MT check if PR exists
+        id: mt-check-pr-exists
+        if: ${{ steps.mt-commit-archive.outcome == 'success' }}
+        continue-on-error: true
+        run: |
+          git fetch origin "${{ steps.mt-commit-archive.outputs.PR_BRANCH }}" || true
+          PR_COUNT=$(gh pr list --state open --head "${{ steps.mt-commit-archive.outputs.PR_BRANCH }}" | wc -l)
+          echo "Pull requests found: $PR_COUNT."
+          if [[ $PR_COUNT -eq 0 ]]; then
+            exit 1 # fail == PR need to be created
+          else
+            exit 0 # success == PR need to be updated
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.MT_PAT }}
+
+      - name: MT create pull request (if necessary)
+        if: ${{ steps.mt-commit-archive.outcome == 'success' && steps.mt-check-pr-exists.outcome == 'failure' }}
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          gh pr create --base "${MT_BRANCH_NAME}" --head "${{ steps.mt-commit-archive.outputs.PR_BRANCH }}" --title "$COMMIT_MSG" --body "$COMMIT_MSG" --assignee montransit
+          gh pr comment --body "@mtransitapps/reviewers please review" # --reviewer mtransitapps/reviewers
+        env:
+          GH_TOKEN: ${{ secrets.MT_PAT }}
+
+      - name: MT update pull request (if necessary)
+        if: ${{ steps.mt-commit-archive.outcome == 'success' && steps.mt-check-pr-exists.outcome == 'success' }}
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          gh pr edit "${{ steps.mt-commit-archive.outputs.PR_BRANCH }}" --add-assignee montransit --title "$COMMIT_MSG"
+          gh pr comment --body "@mtransitapps/reviewers please review" # --reviewer mtransitapps/reviewers
+        env:
+          GH_TOKEN: ${{ secrets.MT_PAT }}
