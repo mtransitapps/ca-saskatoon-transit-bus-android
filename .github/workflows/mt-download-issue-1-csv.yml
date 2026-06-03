@@ -31,7 +31,18 @@ jobs:
         with:
           token: ${{ secrets.MT_PAT }}
 
+      - name: MT check input_url override
+        id: mt-check-input-url
+        run: |
+          if [[ -f "config/input_url" ]]; then
+            echo "Found config/input_url; skipping issue #1 archive download workflow."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Download ArcGIS CSV files
+        if: ${{ steps.mt-check-input-url.outputs.skip != 'true' }}
         shell: bash
         run: |
           set -euo pipefail
@@ -115,6 +126,7 @@ jobs:
           echo "Created archive: ${archive_file}"
 
       - name: Upload downloaded CSV files
+        if: ${{ steps.mt-check-input-url.outputs.skip != 'true' }}
         uses: actions/upload-artifact@v4
         with:
           name: issue-1-csv-files
@@ -125,6 +137,7 @@ jobs:
           retention-days: 31
 
       - name: MT commit archive
+        if: ${{ steps.mt-check-input-url.outputs.skip != 'true' }}
         continue-on-error: true
         id: mt-commit-archive
         run: |
@@ -144,7 +157,7 @@ jobs:
 
       - name: MT check if PR exists
         id: mt-check-pr-exists
-        if: ${{ steps.mt-commit-archive.outcome == 'success' }}
+        if: ${{ steps.mt-check-input-url.outputs.skip != 'true' && steps.mt-commit-archive.outcome == 'success' }}
         continue-on-error: true
         run: |
           git fetch origin "${{ steps.mt-commit-archive.outputs.PR_BRANCH }}" || true
@@ -159,7 +172,7 @@ jobs:
           GH_TOKEN: ${{ secrets.MT_PAT }}
 
       - name: MT create pull request (if necessary)
-        if: ${{ steps.mt-commit-archive.outcome == 'success' && steps.mt-check-pr-exists.outcome == 'failure' }}
+        if: ${{ steps.mt-check-input-url.outputs.skip != 'true' && steps.mt-commit-archive.outcome == 'success' && steps.mt-check-pr-exists.outcome == 'failure' }}
         run: |
           COMMIT_MSG=$(git log -1 --pretty=%B)
           gh pr create --base "${MT_BRANCH_NAME}" --head "${{ steps.mt-commit-archive.outputs.PR_BRANCH }}" --title "$COMMIT_MSG" --body "$COMMIT_MSG" --assignee montransit
@@ -168,7 +181,7 @@ jobs:
           GH_TOKEN: ${{ secrets.MT_PAT }}
 
       - name: MT update pull request (if necessary)
-        if: ${{ steps.mt-commit-archive.outcome == 'success' && steps.mt-check-pr-exists.outcome == 'success' }}
+        if: ${{ steps.mt-check-input-url.outputs.skip != 'true' && steps.mt-commit-archive.outcome == 'success' && steps.mt-check-pr-exists.outcome == 'success' }}
         run: |
           COMMIT_MSG=$(git log -1 --pretty=%B)
           gh pr edit "${{ steps.mt-commit-archive.outputs.PR_BRANCH }}" --add-assignee montransit --title "$COMMIT_MSG"
