@@ -1,0 +1,99 @@
+# Download all ArcGIS/Open Data datasets referenced in issue #1 as CSV files.
+name: MT download issue #1 CSV
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * 6' # Saturdays @ 12pm UTC
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  MT-DOWNLOAD-ISSUE-1-CSV-JOB:
+    name: MT Download Issue #1 CSV
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: MT check out repository code
+        uses: actions/checkout@v6
+
+      - name: Download ArcGIS CSV files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          output_dir="arcgis-csv"
+          mkdir -p "${output_dir}"
+
+          url_encode() {
+            python3 -c 'import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))' "$1"
+          }
+
+          try_download() {
+            local url="$1"
+            local out="$2"
+            echo "Trying: ${url}"
+            if curl --location --fail --silent --show-error "${url}" --output "${out}.tmp"; then
+              if [[ -s "${out}.tmp" ]]; then
+                mv "${out}.tmp" "${out}"
+                return 0
+              fi
+            fi
+            rm -f "${out}.tmp"
+            return 1
+          }
+
+          download_arcgis_csv() {
+            local slug="$1"
+            local output_file="$2"
+            local base_url="https://opendata.saskatoon.ca"
+            local item_id=""
+
+            if try_download "${base_url}/datasets/${slug}.csv" "${output_file}"; then
+              return 0
+            fi
+
+            if try_download "${base_url}/datasets/${slug}/downloads/data?format=csv&spatialRefId=4326" "${output_file}"; then
+              return 0
+            fi
+
+            item_id="$(
+              curl --location --fail --silent --show-error \
+                "${base_url}/api/search/v1?q=$(url_encode "${slug}")" \
+                | jq -r '.results[0].id // empty'
+            )"
+
+            if [[ -n "${item_id}" ]] && try_download "${base_url}/api/download/v1/items/${item_id}/csv?layers=0" "${output_file}"; then
+              return 0
+            fi
+
+            echo "ERROR: Failed to download CSV for ${slug}"
+            return 1
+          }
+
+          while IFS='|' read -r gtfs_file dataset_slug; do
+            [[ -n "${gtfs_file}" ]] || continue
+            echo "Downloading ${gtfs_file} from ${dataset_slug}"
+            download_arcgis_csv "${dataset_slug}" "${output_dir}/${gtfs_file}"
+          done <<'EOF'
+          agency.txt|CitySaskatoon::transit-agency-1
+          stops.txt|CitySaskatoon::transit-stops-1
+          routes.txt|CitySaskatoon::transit-routes
+          trips.txt|CitySaskatoon::transit-trips
+          stop_times.txt|CitySaskatoon::transit-stop-times
+          calendar.txt|CitySaskatoon::transit-calendar
+          shapes.txt|CitySaskatoon::transit-shapes
+          EOF
+
+          echo "Downloaded files:"
+          ls -lah "${output_dir}"
+
+      - name: Upload downloaded CSV files
+        uses: actions/upload-artifact@v4
+        with:
+          name: issue-1-csv-files
+          path: arcgis-csv/
+          if-no-files-found: error
+          retention-days: 31
