@@ -10,6 +10,9 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+
 jobs:
   MT-DOWNLOAD-ISSUE-1-CSV-JOB:
     name: MT Download Issue #1 CSV
