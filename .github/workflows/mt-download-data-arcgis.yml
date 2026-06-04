@@ -24,7 +24,7 @@ env:
 jobs:
   MT-DOWNLOAD-DATA-ARCGIS-JOB:
     name: MT Download Data ArcGIS
-    if: ${{ github.event_name != 'pull_request' }}
+    # if: ${{ github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
