@@ -1,7 +1,8 @@
-# Download all ArcGIS/Open Data datasets referenced in issue #1 as CSV files.
-name: MT download issue #1 CSV
+# Download all ArcGIS/Open Data datasets as CSV files.
+name: MT download data - ArcGIS
 
 on:
+  pull_request: # make available for initial PR but job is Skipped by default
   workflow_dispatch:
   schedule:
     - cron: '0 12 * * 6' # Saturdays @ 12pm UTC
@@ -21,8 +22,9 @@ env:
   MT_BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
 
 jobs:
-  MT-DOWNLOAD-ISSUE-1-CSV-JOB:
-    name: MT Download Issue #1 CSV
+  MT-DOWNLOAD-DATA-ARCGIS-JOB:
+    name: MT Download Data ArcGIS
+    if: ${{ github.event_name != 'pull_request' }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -141,7 +143,7 @@ jobs:
         continue-on-error: true
         id: mt-commit-archive
         run: |
-          PR_BRANCH="${MT_BRANCH_NAME}_update_issue_1_archive"
+          PR_BRANCH="${MT_BRANCH_NAME}_update_data_arcgis"
           git add -v -A agency-parser/archive/
           if git diff --staged --quiet; then
             echo "No new archive to commit."
@@ -150,7 +152,7 @@ jobs:
           git config user.name "$MT_BOT_USER_NAME"
           git config user.email "$MT_BOT_USER_EMAIL"
           git switch -C "${PR_BRANCH}"
-          git commit -m "Update issue #1 archive in \`${MT_BRANCH_NAME}\`"
+          git commit -m "Update ArcGIS data archive in \`${MT_BRANCH_NAME}\`"
           git push -u origin "${PR_BRANCH}" --force
           echo "PR_BRANCH=${PR_BRANCH}" >> "$GITHUB_OUTPUT"
           exit 0 # success == PR needed
