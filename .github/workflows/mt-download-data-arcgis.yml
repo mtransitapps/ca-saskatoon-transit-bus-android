@@ -118,6 +118,10 @@ jobs:
           ls -lah "${output_dir}"
 
           read -r min_start_date max_end_date < <(awk -F',' 'NR==1{for(i=1;i<=NF;i++){gsub(/\r/,"",$i); if($i=="start_date") s=i; if($i=="end_date") e=i} next} {gsub(/\r/,"",$s);gsub(/\r/,"",$e); if($s!=""){if(min==""||$s<min)min=$s} if($e!=""){if(max==""||$e>max)max=$e}} END{if(min==""||max==""){print "ERROR: Could not determine min start_date and max end_date from calendar.txt" > "/dev/stderr"; exit 1} print min, max}' "${output_dir}/calendar.txt")
+          if [[ ! "${min_start_date}" =~ ^[0-9]{8}$ || ! "${max_end_date}" =~ ^[0-9]{8}$ ]]; then
+            echo "ERROR: Invalid min/max date from calendar.txt (${min_start_date} / ${max_end_date})"
+            exit 1
+          fi
 
           archive_file="${archive_dir}/${min_start_date}-${max_end_date}.zip"
           rm -f "${archive_file}"
