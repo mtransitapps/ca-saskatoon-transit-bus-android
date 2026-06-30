@@ -1,6 +1,6 @@
 {
   "default_route_id_enabled": "true",
-  "use_route_short_name_for_route_id": "false",
+  "use_route_short_name_for_route_id": "true",
   "route_short_name_cleaners": [
     {
       "regex": "^0+"

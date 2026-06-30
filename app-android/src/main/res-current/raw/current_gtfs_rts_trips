@@ -1,88 +1,84 @@
-1468600,0,'City Centre',14686
-1468601,0,'Exhibition',14686
-1468701,0,'City Centre',14687
-1468700,0,'Meadowgreen',14687
-1468801,0,'City Centre',14688
-1468800,0,'Hudson Bay Pk',14688
-1468901,0,'City Centre',14689
-1469001,0,'City Centre',14690
-1469000,0,'Confederation Term',14690
-1469101,0,'Downtown Term S',14691
-1469100,0,'Mkt Mall Term I/B',14691
-1469201,0,'City Centre',14692
-1469200,0,'Dundonald',14692
-1469300,0,'8th Street',14693
-1469301,0,'City Centre',14693
-1469401,0,'City Centre',14694
-1469400,0,'Riversdale',14694
-1469500,0,'Centre Mall',14695
-1469501,0,'University',14695
-1469600,0,'Airport',14696
-1469601,0,'City Centre',14696
-1469701,0,'City Centre',14697
-1469700,0,'River Heights',14697
-1469801,0,'City Centre',14698
-1469800,0,'North Ind',14698
-1469900,0,'City Centre',14699
-1469901,0,'Civic Op Ctr',14699
-1470000,0,'Market Mall',14700
-1470001,0,'University',14700
-1470101,0,'Lawson',14701
-1470100,0,'Stonebridge',14701
-1470201,0,'College Park',14702
-1470200,0,'University',14702
-1470301,0,'Centre Mall',14703
-1470300,0,'City Centre',14703
-1470401,0,'City Centre',14704
-1470400,0,'Confederation Term',14704
-1470500,0,'Apex/Bill Hunter',14705
-1470501,0,'Millar/60th St',14705
-1470600,0,'Forest Grove',14706
-1470601,0,'University',14706
-1470700,0,'Silverspring',14707
-1470701,0,'University',14707
-1470800,0,'Brighton',14708
-1470801,0,'University',14708
-1470901,0,'City Centre',14709
-1470900,0,'Lawson Hts',14709
-1471001,0,'City Centre',14710
-1471501,0,'City Centre',14715
-1471500,0,'SaskTel Ctr',14715
-1471901,0,'City Centre',14719
-1471900,0,'Silverwood Hts',14719
-1472201,0,'City Centre',14722
-1472200,0,'Evergreen',14722
-1472301,0,'City Centre',14723
-1472300,0,'Willowgrove',14723
-1472400,0,'Arbor Creek',14724
-1472401,0,'City Centre',14724
-1472500,0,'115th Street',14725
-1472501,0,'City Centre',14725
-1472600,0,'Lakeview',14726
-1472601,0,'University',14726
-1472801,0,'North Ind',14728
-1472800,0,'Sask Tel Ctr',14728
-1472901,0,'Brighton',14729
-1472900,0,'Nelson Rd',14729
-1473000,0,'City Centre',14730
-1473001,0,'Evergreen',14730
-1473100,0,'Lakeridge',14731
-1473101,0,'University',14731
-1473200,0,'City Centre',14732
-1473201,0,'Confederation',14732
-1473301,0,'Blairmore',14733
-1473300,0,'Confederation Term',14733
-1473400,0,'Confederation Term',14734
-1473401,0,'Hampton Vlg',14734
-1473500,0,'Confederation Term',14735
-1473501,0,'McCormack',14735
-1473600,0,'City Centre',14736
-1473601,0,'Kensington',14736
-1473700,0,'Centre Mall',14737
-1473701,0,'Stonebridge',14737
-1473800,0,'Briarwood',14738
-1473801,0,'Centre Mall',14738
-1473901,0,'Centre Mall',14739
-1473900,0,'Rosewood',14739
-1474001,0,'Centre Mall',14740
-1474000,0,'The Meadows',14740
+100,0,'City Centre',1
+101,0,'Exhibition',1
+201,0,'City Centre',2
+200,0,'Meadowgreen',2
+301,0,'City Centre',3
+300,0,'Hudson Bay Pk',3
+401,0,'City Centre',4
+501,0,'City Centre',5
+500,0,'Confederation Term',5
+601,0,'Downtown Term E',6
+600,0,'Mkt Mall Term I/B',6
+701,0,'City Centre',7
+700,0,'Dundonald',7
+800,0,'8th Street',8
+801,0,'City Centre',8
+901,0,'City Centre',9
+900,0,'Riversdale',9
+1000,0,'Centre Mall',10
+1001,0,'University',10
+1100,0,'Airport',11
+1101,0,'City Centre',11
+1201,0,'City Centre',12
+1200,0,'River Heights',12
+1401,0,'City Centre',14
+1400,0,'North Ind',14
+1500,0,'City Centre',15
+1501,0,'Civic Op Ctr',15
+1600,0,'Market Mall',16
+1601,0,'University',16
+1701,0,'Lawson',17
+1700,0,'Stonebridge',17
+1801,0,'College Park',18
+1800,0,'University',18
+1901,0,'Centre Mall',19
+1900,0,'City Centre',19
+2201,0,'City Centre',22
+2200,0,'Confederation Term',22
+2500,0,'Apex/Bill Hunter',25
+2501,0,'Millar/60th St',25
+2600,0,'Forest Grove',26
+2601,0,'University',26
+2700,0,'Silverspring',27
+2701,0,'University',27
+2900,0,'Brighton',29
+2901,0,'University',29
+3001,0,'City Centre',30
+3000,0,'Lawson Hts',30
+3501,0,'City Centre',35
+3500,0,'Silverwood Hts',35
+4301,0,'City Centre',43
+4300,0,'Evergreen',43
+4401,0,'City Centre',44
+4400,0,'Willowgrove',44
+4500,0,'Arbor Creek',45
+4501,0,'City Centre',45
+4600,0,'115th Street',46
+4601,0,'City Centre',46
+5000,0,'Lakeview',50
+5001,0,'University',50
+5500,0,'Lakeridge',55
+5501,0,'University',55
+6000,0,'City Centre',60
+6001,0,'Confederation',60
+6101,0,'Blairmore',61
+6100,0,'Confederation Term',61
+6300,0,'Confederation Term',63
+6301,0,'Hampton Vlg',63
+6400,0,'Confederation Term',64
+6401,0,'McCormack',64
+6500,0,'City Centre',65
+6501,0,'Kensington',65
+8300,0,'Centre Mall',83
+8301,0,'Stonebridge',83
+8400,0,'Briarwood',84
+8401,0,'Centre Mall',84
+8601,0,'Centre Mall',86
+8600,0,'Rosewood',86
+8701,0,'Centre Mall',87
+8700,0,'The Meadows',87
+30501,0,'City Centre',305
+33301,0,'City Centre',333
+33300,0,'SaskTel Ctr',333
+51401,0,'North Ind',514
+51400,0,'Sask Tel Ctr',514
