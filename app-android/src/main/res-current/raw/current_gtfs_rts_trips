@@ -27,7 +27,7 @@
 1501,0,'Civic Op Ctr',15
 1600,0,'Market Mall',16
 1601,0,'University',16
-1701,0,'Lawson',17
+1701,0,'Lawson/University',17
 1700,0,'Stonebridge',17
 1801,0,'College Park',18
 1800,0,'University',18
@@ -78,7 +78,28 @@
 8701,0,'Centre Mall',87
 8700,0,'The Meadows',87
 30501,0,'City Centre',305
+31100,0,'Bowman/Murray/Cross',311
+31101,0,'Exhibition',311
+31500,0,'Confederation Term',315
+31501,0,'Royal - Feehan- Bedford',315
+32501,0,'City Centre',325
 33301,0,'City Centre',333
 33300,0,'SaskTel Ctr',333
+33600,0,'Cross/Murray/Bowman',336
+33601,0,'Ctr Mall Term',336
+33900,0,'Murray/Cross',339
+33901,0,'Stillwater/The Mdws',339
+34001,0,'Kingsmere/Rosewood',340
+34000,0,'Murray/Cross',340
+35201,0,'E College Pk',352
+35200,0,'St Joseph',352
+35800,0,'Bishop Murray',358
+35801,0,'City Centre',358
 51401,0,'North Ind',514
 51400,0,'Sask Tel Ctr',514
+52901,0,'Brighton',529
+52900,0,'Nelson Rd',529
+54300,0,'City Centre',543
+54301,0,'Evergreen',543
+122500,0,'JBE - Ctr Mall',1225
+122501,0,'JBE - Mkt Mall',1225
