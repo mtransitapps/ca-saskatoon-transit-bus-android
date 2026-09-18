@@ -1,0 +1,196 @@
+# Download all ArcGIS/Open Data datasets as CSV files.
+name: MT download data - ArcGIS
+
+on:
+  pull_request: # make available for initial PR but job is Skipped by default
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * 6' # Saturdays @ 12pm UTC
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+env:
+  MT_BOT_USER_NAME: ${{ vars.MT_BOT_USER_NAME }}
+  MT_BOT_USER_EMAIL: ${{ vars.MT_BOT_USER_EMAIL }}
+  MT_BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+
+jobs:
+  MT-DOWNLOAD-DATA-ARCGIS-JOB:
+    name: MT Download Data ArcGIS
+    # if: ${{ github.event_name != 'pull_request' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: MT check out repository code
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.MT_PAT }}
+
+      - name: MT check input_url override
+        id: mt-check-input-url
+        run: |
+          if [[ -f "config/input_url" ]]; then
+            echo "Found config/input_url; skipping issue #1 archive download workflow."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Download ArcGIS CSV files
+        if: ${{ steps.mt-check-input-url.outputs.skip != 'true' }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          output_dir="arcgis-csv"
+          archive_dir="agency-parser/archive"
+          mkdir -p "${output_dir}"
+          mkdir -p "${archive_dir}"
+
+          url_encode() {
+            python3 -c 'import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))' "$1"
+          }
+
+          try_download() {
+            local url="$1"
+            local out="$2"
+            echo "Trying: ${url}"
+            if curl --location --fail --silent --show-error "${url}" --output "${out}.tmp"; then
+              if [[ -s "${out}.tmp" ]]; then
+                mv "${out}.tmp" "${out}"
+                return 0
+              fi
+            fi
+            rm -f "${out}.tmp"
+            return 1
+          }
+
+          download_arcgis_csv() {
+            local slug="$1"
+            local output_file="$2"
+            local base_url="https://opendata.saskatoon.ca"
+            local item_id=""
+
+            if try_download "${base_url}/datasets/${slug}.csv" "${output_file}"; then
+              return 0
+            fi
+
+            if try_download "${base_url}/datasets/${slug}/downloads/data?format=csv&spatialRefId=4326" "${output_file}"; then
+              return 0
+            fi
+
+            item_id="$(
+              curl --location --fail --silent --show-error \
+                "${base_url}/api/search/v1?q=$(url_encode "${slug}")" \
+                | jq -r '.results[0].id // empty'
+            )"
+
+            if [[ -n "${item_id}" ]] && try_download "${base_url}/api/download/v1/items/${item_id}/csv?layers=0" "${output_file}"; then
+              return 0
+            fi
+
+            echo "ERROR: Failed to download CSV for ${slug}"
+            return 1
+          }
+
+          while IFS='|' read -r gtfs_file dataset_slug; do
+            [[ -n "${gtfs_file}" ]] || continue
+            echo "Downloading ${gtfs_file} from ${dataset_slug}"
+            download_arcgis_csv "${dataset_slug}" "${output_dir}/${gtfs_file}"
+          done <<'EOF'
+          agency.txt|CitySaskatoon::transit-agency-1
+          stops.txt|CitySaskatoon::transit-stops-1
+          routes.txt|CitySaskatoon::transit-routes
+          trips.txt|CitySaskatoon::transit-trips
+          stop_times.txt|CitySaskatoon::transit-stop-times
+          calendar.txt|CitySaskatoon::transit-calendar
+          shapes.txt|CitySaskatoon::transit-shapes
+          EOF
+
+          echo "Downloaded files:"
+          ls -lah "${output_dir}"
+
+          read -r min_start_date max_end_date < <(awk -F',' 'NR==1{for(i=1;i<=NF;i++){gsub(/\r/,"",$i); if($i=="start_date") s=i; if($i=="end_date") e=i} next} {gsub(/\r/,"",$s);gsub(/\r/,"",$e); if($s!=""){if(min==""||$s<min)min=$s} if($e!=""){if(max==""||$e>max)max=$e}} END{if(min==""||max==""){print "ERROR: Could not determine min start_date and max end_date from calendar.txt" > "/dev/stderr"; exit 1} print min, max}' "${output_dir}/calendar.txt")
+          if [[ ! "${min_start_date}" =~ ^[0-9]{8}$ || ! "${max_end_date}" =~ ^[0-9]{8}$ ]]; then
+            echo "ERROR: Invalid min/max date from calendar.txt (${min_start_date} / ${max_end_date})"
+            exit 1
+          fi
+
+          archive_file="${archive_dir}/${min_start_date}-${max_end_date}.zip"
+          rm -f "${archive_file}"
+          (
+            cd "${output_dir}"
+            zip -q -r "../${archive_file}" ./*.txt
+          )
+          echo "Created archive: ${archive_file}"
+
+      - name: Upload downloaded CSV files
+        if: ${{ steps.mt-check-input-url.outputs.skip != 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: issue-1-csv-files
+          path: |
+            arcgis-csv/
+            agency-parser/archive/*.zip
+          if-no-files-found: error
+          retention-days: 31
+
+      - name: MT commit archive
+        if: ${{ steps.mt-check-input-url.outputs.skip != 'true' }}
+        continue-on-error: true
+        id: mt-commit-archive
+        run: |
+          PR_BRANCH="${MT_BRANCH_NAME}_update_data_arcgis"
+          git add -v -A agency-parser/archive/
+          if git diff --staged --quiet; then
+            echo "No new archive to commit."
+            exit 1 # fail == no PR needed
+          fi
+          git config user.name "$MT_BOT_USER_NAME"
+          git config user.email "$MT_BOT_USER_EMAIL"
+          git switch -C "${PR_BRANCH}"
+          git commit -m "Update ArcGIS data archive in \`${MT_BRANCH_NAME}\`"
+          git push -u origin "${PR_BRANCH}" --force
+          echo "PR_BRANCH=${PR_BRANCH}" >> "$GITHUB_OUTPUT"
+          exit 0 # success == PR needed
+
+      - name: MT check if PR exists
+        id: mt-check-pr-exists
+        if: ${{ steps.mt-check-input-url.outputs.skip != 'true' && steps.mt-commit-archive.outcome == 'success' }}
+        continue-on-error: true
+        run: |
+          git fetch origin "${{ steps.mt-commit-archive.outputs.PR_BRANCH }}" || true
+          PR_COUNT=$(gh pr list --state open --head "${{ steps.mt-commit-archive.outputs.PR_BRANCH }}" | wc -l)
+          echo "Pull requests found: $PR_COUNT."
+          if [[ $PR_COUNT -eq 0 ]]; then
+            exit 1 # fail == PR need to be created
+          else
+            exit 0 # success == PR need to be updated
+          fi
+        env:
+          GH_TOKEN: ${{ secrets.MT_PAT }}
+
+      - name: MT create pull request (if necessary)
+        if: ${{ steps.mt-check-input-url.outputs.skip != 'true' && steps.mt-commit-archive.outcome == 'success' && steps.mt-check-pr-exists.outcome == 'failure' }}
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          gh pr create --base "${MT_BRANCH_NAME}" --head "${{ steps.mt-commit-archive.outputs.PR_BRANCH }}" --title "$COMMIT_MSG" --body "$COMMIT_MSG" --assignee montransit
+          gh pr comment --body "@mtransitapps/reviewers please review" # --reviewer mtransitapps/reviewers
+        env:
+          GH_TOKEN: ${{ secrets.MT_PAT }}
+
+      - name: MT update pull request (if necessary)
+        if: ${{ steps.mt-check-input-url.outputs.skip != 'true' && steps.mt-commit-archive.outcome == 'success' && steps.mt-check-pr-exists.outcome == 'success' }}
+        run: |
+          COMMIT_MSG=$(git log -1 --pretty=%B)
+          gh pr edit "${{ steps.mt-commit-archive.outputs.PR_BRANCH }}" --add-assignee montransit --title "$COMMIT_MSG"
+          gh pr comment --body "@mtransitapps/reviewers please review" # --reviewer mtransitapps/reviewers
+        env:
+          GH_TOKEN: ${{ secrets.MT_PAT }}
